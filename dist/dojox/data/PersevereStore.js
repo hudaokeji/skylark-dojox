@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["dojo","dojox","require","dojox/data/JsonQueryRestStore","dojox/rpc/Client","dojo/_base/url"],function(e,r,t){r.json.ref.serializeFunctions=!0;var o=e.declare("dojox.data.PersevereStore",r.data.JsonQueryRestStore,{useFullIdInQueries:!0,jsonQueryPagination:!1});return o.getStores=function(o,n){(o=o&&(o.match(/\/$/)?o:o+"/")||"/").match(/^\w*:\/\//)&&(t("dojox/io/xhrScriptPlugin"),r.io.xhrScriptPlugin(o,"callback",r.io.xhrPlugins.fullHttpAdapter));var s=e.xhr;e.xhr=function(r,t){return(t.headers=t.headers||{})["Server-Methods"]="false",s.apply(e,arguments)};var a=r.rpc.Rest(o,!0);r.rpc._sync=n;var i,d=a("Class/"),p={},u=0;return d.addCallback(function(t){function n(t){t.extends&&t.extends.prototype&&(t.prototype&&t.prototype.isPrototypeOf(t.extends.prototype)||(n(t.extends),r.rpc.Rest._index[t.prototype.__id]=t.prototype=e.mixin(e.delegate(t.extends.prototype),t.prototype)))}function s(t,o){if(t&&o)for(var n in t){"client"==t[n].runAt||o[n]||(o[n]=function(t){return function(){var o=e.rawXhrPost({url:this.__id,postData:r.json.ref.toJson({method:t,id:u++,params:e._toArray(arguments)}),handleAs:"json"});return o.addCallback(function(e){return e.error?new Error(e.error):e.result}),o}}(n))}}for(var a in r.json.ref.resolveJson(t,{index:r.rpc.Rest._index,idPrefix:"/Class/",assignAbsoluteIds:!0}),t)if("object"==typeof t[a]){var d=t[a];n(d),s(d.methods,d.prototype=d.prototype||{}),s(d.staticMethods,d),p[t[a].id]=new r.data.PersevereStore({target:new e._Url(o,t[a].id)+"/",schema:d})}return i=p}),e.xhr=s,n?i:d},o.addProxy=function(){t("dojox/io/xhrPlugins"),r.io.xhrPlugins.addProxy("/proxy/")},o});
+//# sourceMappingURL=../sourcemaps/data/PersevereStore.js.map

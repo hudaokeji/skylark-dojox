@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ko/CollapsibleToolbar.js"],"names":["define","collapse","expand"],"mappings":";;;;;;;AAAAA,QAECC,SAAY,eACZC,OAAU","file":"../../../../../editor/plugins/nls/ko/CollapsibleToolbar.js","sourcesContent":["define(\r\n({\r\n\t\"collapse\": \"편집기 도구 모음 접기\",\r\n\t\"expand\": \"편집기 도구 모음 펼치기\"\r\n})\r\n);\r\n"]}

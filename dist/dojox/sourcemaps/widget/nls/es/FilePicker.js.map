@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/es/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,SACNC,KAAM,gBACNC,KAAM","file":"../../../../widget/nls/es/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Nombre\",\r\n\tpath: \"Vía de acceso\",\r\n\tsize: \"Tamaño (en bytes)\"\r\n})\r\n);\r\n"]}

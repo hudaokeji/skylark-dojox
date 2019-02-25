@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/zh/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,KACNC,KAAM,KACNC,KAAM","file":"../../../../widget/nls/zh/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"名称\",\r\n\tpath: \"路径\",\r\n\tsize: \"大小（以字节计）\"\r\n})\r\n);\r\n"]}

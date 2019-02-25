@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["dojo/_base/lang","dojo/_base/declare","dojox/dgauges/CircularGauge","dojox/dgauges/LinearScaler","dojox/dgauges/CircularScale","dojox/dgauges/CircularValueIndicator","dojox/dgauges/CircularRangeIndicator","dojox/dgauges/TextIndicator"],function(e,t,a,o,n,r,i,l){return t("dojox.dgauges.tests.gauges.SimpleSemiCircularGauge",a,{constructor:function(){this.font={family:"Helvetica",style:"normal",size:"10pt",color:"black"},this.addElement("background",function(e){e.createRect({width:200,height:100})});var e=new o({minimum:0,maximum:100}),t=new n({scaler:e,originX:100,originY:85,startAngle:180,endAngle:0,tickLabelFunc:function(){return null},tickShapeFunc:function(){return null}});this.addElement("scale",t);var a=new i({start:0,value:100,radius:85,startThickness:30,endThickness:30,fill:{type:"radial",cx:100,cy:85,colors:[{offset:0,color:"black"},{offset:.8,color:"#FAFAFA"},{offset:1,color:"#AAAAAA"}]},stroke:null,interactionMode:"none"});t.addIndicator("backgroundIndicator",a);var r=new i({start:0,value:65,radius:85,startThickness:30,endThickness:30,fill:{type:"radial",cx:100,cy:85,rx:85,ry:85,colors:[{offset:0,color:"FF0000"},{offset:.8,color:"red"},{offset:1,color:"#FFFAFA"}]},stroke:null,interactionMode:"mouse"});t.addIndicator("rangeIndicator",r),this.addElement("text",new l({indicator:r,x:100,y:75,font:{family:"Helvetica",color:"black",size:"16pt"}})),this.addElement("text2",new l({value:"units",x:100,y:82,fill:"#CECECE",font:{family:"Helvetica",color:"#CECECE",size:"5pt"}})),this.addElement("text3",new l({value:"0",x:30,y:97})),this.addElement("text4",new l({value:"100",x:170,y:97}))}})});
+//# sourceMappingURL=../../../sourcemaps/dgauges/tests/gauges/SimpleSemiCircularGauge.js.map

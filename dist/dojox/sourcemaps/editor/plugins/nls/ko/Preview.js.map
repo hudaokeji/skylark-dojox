@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ko/Preview.js"],"names":["define","preview"],"mappings":";;;;;;;AAAAA,QAECC,QAAW","file":"../../../../../editor/plugins/nls/ko/Preview.js","sourcesContent":["define(\r\n({\r\n\t\"preview\": \"미리보기\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["data/tests/performance/module.js"],"names":["dojo","provide","require"],"mappings":";;;;;;;AAAAA,KAAKC,QAAQ,uCACbD,KAAKE,QAAQ","file":"../../../../data/tests/performance/module.js","sourcesContent":["dojo.provide(\"dojox.data.tests.performance.module\");\r\ndojo.require(\"dojox.data.tests.performance.CsvStore\");\r\n\r\n\r\n"]}

@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+dojo.provide("dojox.secure.fromJson"),dojox.secure.fromJson="undefined"!=typeof JSON?JSON.parse:function(){var e=new RegExp('(?:false|true|null|[\\{\\}\\[\\]]|(?:-?\\b(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?(?:[eE][+-]?[0-9]+)?\\b)|(?:"(?:[^\\0-\\x08\\x0a-\\x1f"\\\\]|\\\\(?:["/\\\\bfnrt]|u[0-9A-Fa-f]{4}))*"))',"g"),r=new RegExp("\\\\(?:([^u])|u(.{4}))","g"),n={'"':'"',"/":"/","\\":"\\",b:"\b",f:"\f",n:"\n",r:"\r",t:"\t"};function t(e,r,t){return r?n[r]:String.fromCharCode(parseInt(t,16))}var a=new String(""),o=(Object,Array,Object.hasOwnProperty);return function(n,f){var i,l,s=n.match(e),c=s[0],h=!1;"{"===c?i={}:"["===c?i=[]:(i=[],h=!0);for(var u=[i],v=1-h,d=s.length;v<d;++v){var g;switch((c=s[v]).charCodeAt(0)){default:(g=u[0])[l||g.length]=+c,l=void 0;break;case 34:if(-1!==(c=c.substring(1,c.length-1)).indexOf("\\")&&(c=c.replace(r,t)),g=u[0],!l){if(!(g instanceof Array)){l=c||a;break}l=g.length}g[l]=c,l=void 0;break;case 91:g=u[0],u.unshift(g[l||g.length]=[]),l=void 0;break;case 93:u.shift();break;case 102:(g=u[0])[l||g.length]=!1,l=void 0;break;case 110:(g=u[0])[l||g.length]=null,l=void 0;break;case 116:(g=u[0])[l||g.length]=!0,l=void 0;break;case 123:g=u[0],u.unshift(g[l||g.length]={}),l=void 0;break;case 125:u.shift()}}if(h){if(1!==u.length)throw new Error;i=i[0]}else if(u.length)throw new Error;if(f){var b=function(e,r){var n=e[r];if(n&&"object"==typeof n){var t=null;for(var a in n)if(o.call(n,a)&&n!==e){var i=b(n,a);void 0!==i?n[a]=i:(t||(t=[]),t.push(a))}if(t)for(var l=t.length;--l>=0;)delete n[t[l]]}return f.call(e,r,n)};i=b({"":i},"")}return i}}();
+//# sourceMappingURL=../sourcemaps/secure/fromJson.js.map

@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/sv/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,OACNC,KAAM,SACNC,KAAM","file":"../../../../widget/nls/sv/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Namn\",\r\n\tpath: \"Sökväg\",\r\n\tsize: \"Storlek (i byte)\"\r\n})\r\n);\r\n"]}

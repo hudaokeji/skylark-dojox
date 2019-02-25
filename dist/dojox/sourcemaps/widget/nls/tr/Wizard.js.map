@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/tr/Wizard.js"],"names":["define","next","previous","done"],"mappings":";;;;;;;AAAAA,QAEAC,KAAM,QACNC,SAAU,OACVC,KAAM","file":"../../../../widget/nls/tr/Wizard.js","sourcesContent":["define(\r\n({\r\nnext: \"İleri\",\r\nprevious: \"Geri\",\r\ndone: \"Bitti\"\r\n})\r\n);\r\n"]}

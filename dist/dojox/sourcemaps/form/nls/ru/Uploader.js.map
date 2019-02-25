@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/ru/Uploader.js"],"names":["define","label"],"mappings":";;;;;;;AAAAA,QAECC,MAAO","file":"../../../../form/nls/ru/Uploader.js","sourcesContent":["define(\r\n({\r\n\tlabel: \"Выберите файлы...\"\r\n})\r\n);\r\n"]}

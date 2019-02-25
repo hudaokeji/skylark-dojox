@@ -1,0 +1,1 @@
+{"version":3,"sources":["secure/tests/good.js"],"names":["element","innerHTML","query","style"],"mappings":";;;;;;;AAAAA,QAAQC,UAAY,8CACpBC,MAAM,KAAKC,MAAM,QAAQ","file":"../../../secure/tests/good.js","sourcesContent":["element.innerHTML = \"Only doing <b>things</b> I am allowed to do\";\r\nquery(\"b\").style(\"color\",\"red\");"]}

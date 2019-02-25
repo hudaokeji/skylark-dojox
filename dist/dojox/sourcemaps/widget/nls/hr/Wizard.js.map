@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/hr/Wizard.js"],"names":["define","next","previous","done"],"mappings":";;;;;;;AAAAA,QAEAC,KAAM,WACNC,SAAU,YACVC,KAAM","file":"../../../../widget/nls/hr/Wizard.js","sourcesContent":["define(\r\n({\r\nnext: \"Sljedeće\",\r\nprevious: \"Prethodno\",\r\ndone: \"Gotovo\"\r\n})\r\n);\r\n"]}

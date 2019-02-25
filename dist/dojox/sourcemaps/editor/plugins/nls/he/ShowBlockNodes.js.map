@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/he/ShowBlockNodes.js"],"names":["define","showBlockNodes"],"mappings":";;;;;;;AAAAA,QAECC,eAAkB","file":"../../../../../editor/plugins/nls/he/ShowBlockNodes.js","sourcesContent":["define(\r\n({\r\n\t\"showBlockNodes\": \"הצגת מרכיבי Block של HTML \"\r\n})\r\n);\r\n"]}

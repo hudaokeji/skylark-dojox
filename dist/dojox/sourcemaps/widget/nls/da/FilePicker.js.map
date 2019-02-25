@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/da/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,OACNC,KAAM,MACNC,KAAM","file":"../../../../widget/nls/da/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Navn\",\r\n\tpath: \"Sti\",\r\n\tsize: \"Størrelse (i byte)\"\r\n})\r\n);\r\n"]}

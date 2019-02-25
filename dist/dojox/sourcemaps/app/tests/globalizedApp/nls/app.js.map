@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/tests/globalizedApp/nls/app.js"],"names":["define","root","home","label0","fr"],"mappings":";;;;;;;AAAAA,QACCC,MACEC,KAAM,OACNC,OAAQ,cAEVC,IAAI","file":"../../../../../app/tests/globalizedApp/nls/app.js","sourcesContent":["define({\r\n\troot: {\r\n\t  home: \"Home\",\r\n\t  label0: \"Label Zero\"\r\n\t},\r\n\tfr: true\r\n});"]}

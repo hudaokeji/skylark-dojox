@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/nl/ShowBlockNodes.js"],"names":["define","showBlockNodes"],"mappings":";;;;;;;AAAAA,QAECC,eAAkB","file":"../../../../../editor/plugins/nls/nl/ShowBlockNodes.js","sourcesContent":["define(\r\n({\r\n\t\"showBlockNodes\": \"HTML-blokelementen afbeelden\"\r\n})\r\n);\r\n"]}

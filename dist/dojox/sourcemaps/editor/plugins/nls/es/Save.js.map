@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/es/Save.js"],"names":["define","save"],"mappings":";;;;;;;AAAAA,QAECC,KAAQ","file":"../../../../../editor/plugins/nls/es/Save.js","sourcesContent":["define(\r\n({\r\n\t\"save\": \"Guardar\"\r\n})\r\n);\r\n"]}

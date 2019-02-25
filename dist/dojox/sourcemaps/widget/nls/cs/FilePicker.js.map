@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/cs/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,QACNC,KAAM,QACNC,KAAM","file":"../../../../widget/nls/cs/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Název\",\r\n\tpath: \"Cesta\",\r\n\tsize: \"Velikost (v bajtech)\"\r\n})\r\n);\r\n"]}

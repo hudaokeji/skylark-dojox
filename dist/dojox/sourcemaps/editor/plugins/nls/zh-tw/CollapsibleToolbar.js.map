@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/zh-tw/CollapsibleToolbar.js"],"names":["define","collapse","expand"],"mappings":";;;;;;;AAAAA,QAECC,SAAY,WACZC,OAAU","file":"../../../../../editor/plugins/nls/zh-tw/CollapsibleToolbar.js","sourcesContent":["define(\r\n({\r\n\t\"collapse\": \"收合編輯器工具列\",\r\n\t\"expand\": \"展開編輯器工具列\"\r\n})\r\n);\r\n"]}

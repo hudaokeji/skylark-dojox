@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/tests/mediaQuery3ColumnApp/nls/home.js"],"names":["define","root","label1","label2","fr"],"mappings":";;;;;;;AAAAA,QACCC,MACCC,OAAQ,YACRC,OAAQ,aAETC,IAAI","file":"../../../../../app/tests/mediaQuery3ColumnApp/nls/home.js","sourcesContent":["define({\r\n\troot: {\r\n\t\tlabel1: \"Label One\",\r\n\t\tlabel2: \"Label Two\"\r\n\t},\r\n\tfr: true\r\n});"]}

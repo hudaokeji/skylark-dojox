@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/ar/ColorPicker.js"],"names":["define","huePickerTitle","saturationPickerTitle"],"mappings":";;;;;;;AAAAA,QAEAC,eAAgB,kBAChBC,sBAAuB","file":"../../../../widget/nls/ar/ColorPicker.js","sourcesContent":["define(\r\n({\r\nhuePickerTitle: \"محدد تدرج اللون\",\r\nsaturationPickerTitle: \"محدد درجة التشبع\"\r\n})\r\n);\r\n"]}

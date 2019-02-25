@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/nb/Wizard.js"],"names":["define","next","previous","done"],"mappings":";;;;;;;AAAAA,QAEAC,KAAM,QACNC,SAAU,UACVC,KAAM","file":"../../../../widget/nls/nb/Wizard.js","sourcesContent":["define(\r\n({\r\nnext: \"Neste\",\r\nprevious: \"Forrige\",\r\ndone: \"Ferdig\"\r\n})\r\n);\r\n"]}

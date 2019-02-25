@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/BorderContainer.js"],"names":["dojo","provide","console","error"],"mappings":";;;;;;;AAAAA,KAAKC,QAAQ,gCAEbC,QAAQC,MAAM","file":"../../layout/BorderContainer.js","sourcesContent":["dojo.provide(\"dojox.layout.BorderContainer\");\r\n\r\nconsole.error(\"dojox.layout.BorderContainer moved to dijit.layout.BorderContainer\");"]}

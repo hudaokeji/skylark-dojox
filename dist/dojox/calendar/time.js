@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["dojo/_base/lang","dojo/date","dojo/cldr/supplemental","dojo/date/stamp"],function(e,t,r,o){var n={newDate:function(e,t){var r;if(t=t||Date,"number"==typeof e)return new t(e);if(e.getTime)return new t(e.getTime());if(e.toGregorian)return r=e.toGregorian(),t!==Date&&(r=new t(r.getTime())),r;if("string"==typeof e){if(null===(r=o.fromISOString(e)))throw new Error("Cannot parse date string ("+e+'), specify a "decodeDate" function that translates this string into a Date object');return t!==Date&&(r=new t(r.getTime())),r}},floorToDay:function(e,t,r){return r=r||Date,t||(e=n.newDate(e,r)),e.setHours(0,0,0,0),e},floorToMonth:function(e,t,r){return r=r||Date,t||(e=n.newDate(e,r)),e.setDate(1),e.setHours(0,0,0,0),e},floorToWeek:function(e,o,a,u,i){o=o||Date,a=a||t;var f=void 0==u||u<0?r.getFirstDayOfWeek(i):u,s=e.getDay();return s==f?e:n.floorToDay(a.add(e,"day",s>f?-s+f:-s+f-7),!0,o)},floor:function(e,t,r,o,a){var u=n.floorToDay(e,o,a);switch(t){case"week":return n.floorToWeek(u,firstDayOfWeek,dateModule,locale);case"minute":u.setHours(e.getHours()),u.setMinutes(Math.floor(e.getMinutes()/r)*r);break;case"hour":u.setHours(Math.floor(e.getHours()/r)*r)}return u},isStartOfDay:function(e,r,o){return 0==(o=o||t).compare(this.floorToDay(e,!1,r),e)},isToday:function(e,t){var r=new(t=t||Date);return e.getFullYear()==r.getFullYear()&&e.getMonth()==r.getMonth()&&e.getDate()==r.getDate()},isOverlapping:function(e,t,r,o,n,a){if(null==t||null==o||null==r||null==n)return!1;var u=e.dateModule;if(a){if(1==u.compare(t,n)||1==u.compare(o,r))return!1}else if(-1!=u.compare(t,n)||-1!=u.compare(o,r))return!1;return!0}};return n});
+//# sourceMappingURL=../sourcemaps/calendar/time.js.map

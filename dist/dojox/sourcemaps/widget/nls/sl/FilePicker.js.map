@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/sl/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,MACNC,KAAM,MACNC,KAAM","file":"../../../../widget/nls/sl/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Ime\",\r\n\tpath: \"Pot\",\r\n\tsize: \"Velikost (v bajtih)\"\r\n})\r\n);\r\n"]}

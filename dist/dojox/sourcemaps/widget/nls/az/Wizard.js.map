@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/az/Wizard.js"],"names":["define","next","done","previous"],"mappings":";;;;;;;AAAAA,QAECC,KAAS,QACTC,KAAS,WACTC,SAAa","file":"../../../../widget/nls/az/Wizard.js","sourcesContent":["define(\r\n({\r\n\t\"next\" : \"Irəli\",\r\n\t\"done\" : \"Qurtardı\",\r\n\t\"previous\" : \"Geri\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/hr/TextColor.js"],"names":["define","setButtonText","cancelButtonText"],"mappings":";;;;;;;AAAAA,QAECC,cAAiB,UACjBC,iBAAoB","file":"../../../../../editor/plugins/nls/hr/TextColor.js","sourcesContent":["define(\r\n({\r\n\t\"setButtonText\": \"Postavi\",\r\n\t\"cancelButtonText\": \"Opoziv\"\r\n})\r\n);\r\n"]}

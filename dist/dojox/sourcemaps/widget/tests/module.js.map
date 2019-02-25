@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/tests/module.js"],"names":["define"],"mappings":";;;;;;;AAAAA,QACC,mCACA,gCACE","file":"../../../widget/tests/module.js","sourcesContent":["define([\r\n\t\"dojox/widget/tests/_Invalidating\",\r\n\t\"dojox/widget/tests/Selection\"\r\n], 1);\r\n"]}

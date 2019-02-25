@@ -1,0 +1,1 @@
+{"version":3,"sources":["highlight/languages/_static.js"],"names":["define"],"mappings":";;;;;;;AAAAA,QAAQ,QAAS,SAAU,YAAa","file":"../../../highlight/languages/_static.js","sourcesContent":["define([\"./cpp\", \"./java\", \"./delphi\"], function(){\r\n\t\r\n});\r\n"]}

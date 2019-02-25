@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/da/Wizard.js"],"names":["define","next","previous","done"],"mappings":";;;;;;;AAAAA,QAEAC,KAAM,QACNC,SAAU,UACVC,KAAM","file":"../../../../widget/nls/da/Wizard.js","sourcesContent":["define(\r\n({\r\nnext: \"Næste\",\r\nprevious: \"Forrige\",\r\ndone: \"Udført\"\r\n})\r\n);\r\n"]}

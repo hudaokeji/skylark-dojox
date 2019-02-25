@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/th/CollapsibleToolbar.js"],"names":["define","collapse","expand"],"mappings":";;;;;;;AAAAA,QAECC,SAAY,8BACZC,OAAU","file":"../../../../../editor/plugins/nls/th/CollapsibleToolbar.js","sourcesContent":["define(\r\n({\r\n\t\"collapse\": \"ยุบรวมแถบเครื่องมือตัวแก้ไข\",\r\n\t\"expand\": \"ขยายแถบเครื่องมือตัวแก้ไข\"\r\n})\r\n);\r\n"]}

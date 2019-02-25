@@ -1,0 +1,1 @@
+{"version":3,"sources":["atom/widget/nls/zh-tw/PeopleEditor.js"],"names":["define","add","addAuthor","addContributor"],"mappings":";;;;;;;AAAAA,QAECC,IAAK,KACLC,UAAW,OACXC,eAAgB","file":"../../../../../atom/widget/nls/zh-tw/PeopleEditor.js","sourcesContent":["define(\r\n({\r\n\tadd: \"新增\",\r\n\taddAuthor: \"新增作者\",\r\n\taddContributor: \"新增貢獻者\"\r\n})\r\n);\r\n"]}

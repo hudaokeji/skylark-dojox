@@ -1,0 +1,1 @@
+{"version":3,"sources":["gfx/move.js"],"names":["define","lang","getObject"],"mappings":";;;;;;;AAAAA,QAAQ,kBAAmB,UAAW,cACpC,SAASC,GAAO,OAAOA,EAAKC,UAAU,kBAAkB","file":"../../gfx/move.js","sourcesContent":["define([\"dojo/_base/lang\", \"./Mover\", \"./Moveable\"], \r\n  function(lang){ return lang.getObject(\"dojox.gfx.move\", true); });\r\n"]}

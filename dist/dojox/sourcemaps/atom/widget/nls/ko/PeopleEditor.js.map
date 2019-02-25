@@ -1,0 +1,1 @@
+{"version":3,"sources":["atom/widget/nls/ko/PeopleEditor.js"],"names":["define","add","addAuthor","addContributor"],"mappings":";;;;;;;AAAAA,QAECC,IAAK,KACLC,UAAW,SACXC,eAAgB","file":"../../../../../atom/widget/nls/ko/PeopleEditor.js","sourcesContent":["define(\r\n({\r\n\tadd: \"추가\",\r\n\taddAuthor: \"작성자 추가\",\r\n\taddContributor: \"제공자 추가\"\r\n})\r\n);\r\n"]}

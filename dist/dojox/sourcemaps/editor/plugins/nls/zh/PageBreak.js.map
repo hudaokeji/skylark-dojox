@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/zh/PageBreak.js"],"names":["define","pageBreak"],"mappings":";;;;;;;AAAAA,QAECC,UAAa","file":"../../../../../editor/plugins/nls/zh/PageBreak.js","sourcesContent":["define(\r\n({\r\n\t\"pageBreak\": \"分页符\"\r\n})\r\n);\r\n"]}

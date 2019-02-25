@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+dojo.provide("dojox.data.tests.module");try{dojo.require("dojox.data.tests.ClientFilter"),dojo.require("dojox.data.tests.stores.CsvStore"),dojo.require("dojox.data.tests.stores.KeyValueStore"),dojo.require("dojox.data.tests.stores.AndOrReadStore"),dojo.require("dojox.data.tests.stores.AndOrWriteStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.HtmlTableStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.HtmlStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.OpmlStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.XmlStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.FlickrStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.FlickrRestStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.PicasaStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.AtomReadStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.GoogleSearchStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.GoogleFeedStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.WikipediaStore"),dojo.isBrowser&&"file:"!==window.location.protocol&&(dojo.require("dojox.data.tests.stores.QueryReadStore"),dojo.require("dojox.data.tests.stores.SnapLogicStore"),dojo.require("dojox.data.tests.stores.FileStore")),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.CssRuleStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.CssClassStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.AppStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.stores.OpenSearchStore"),dojo.requireIf(dojo.isBrowser,"dojox.data.tests.dom")}catch(o){doh.debug(o)}
+//# sourceMappingURL=../../sourcemaps/data/tests/module.js.map

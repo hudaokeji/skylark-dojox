@@ -1,0 +1,1 @@
+{"version":3,"sources":["highlight/languages/_dynamic.js"],"names":["define"],"mappings":";;;;;;;AAAAA,QAAQ,WAAY,WAAY,YAAa","file":"../../../highlight/languages/_dynamic.js","sourcesContent":["define([\"./python\", \"./xquery\", \"./groovy\"], function(){});\r\n"]}

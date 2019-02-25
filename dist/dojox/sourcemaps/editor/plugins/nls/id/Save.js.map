@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/id/Save.js"],"names":["define","save"],"mappings":";;;;;;;AAAAA,QAECC,KAAQ","file":"../../../../../editor/plugins/nls/id/Save.js","sourcesContent":["define(\r\n({\r\n\t\"save\": \"Simpan\"\r\n})\r\n);\r\n\r\n"]}

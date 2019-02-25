@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/kk/Uploader.js"],"names":["define","label"],"mappings":";;;;;;;AAAAA,QAECC,MAAO","file":"../../../../form/nls/kk/Uploader.js","sourcesContent":["define(\r\n({\r\n\tlabel: \"Файлдарды таңдау...\"\r\n})\r\n);\r\n"]}

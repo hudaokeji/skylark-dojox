@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/kk/Wizard.js"],"names":["define","next","previous","done"],"mappings":";;;;;;;AAAAA,QAEAC,KAAM,SACNC,SAAU,UACVC,KAAM","file":"../../../../widget/nls/kk/Wizard.js","sourcesContent":["define(\r\n({\r\nnext: \"Келесі\",\r\nprevious: \"Алдыңғы\",\r\ndone: \"Дайын\"\r\n})\r\n);\r\n"]}

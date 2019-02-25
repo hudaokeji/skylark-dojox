@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["./_base"],function(){dojo.experimental("dojox.timing.ThreadPool");var t=dojox.timing;return t.threadStates={UNSTARTED:"unstarted",STOPPED:"stopped",PENDING:"pending",RUNNING:"running",SUSPENDED:"suspended",WAITING:"waiting",COMPLETE:"complete",ERROR:"error"},t.threadPriorities={LOWEST:1,BELOWNORMAL:2,NORMAL:3,ABOVENORMAL:4,HIGHEST:5},t.Thread=function(e,r){var i=this;this.state=t.threadStates.UNSTARTED,this.priority=r||t.threadPriorities.NORMAL,this.lastError=null,this.func=e,this.invoke=function(){i.state=t.threadStates.RUNNING;try{e(this),i.state=t.threadStates.COMPLETE}catch(e){i.lastError=e,i.state=t.threadStates.ERROR}}},t.ThreadPool=new function(e,r){var i=16,n=(Math.floor(156.25),[]),o=new Array(17),s=new dojox.timing.Timer;this.getMaxThreads=function(){return 16},this.getAvailableThreads=function(){return i},this.getTickInterval=function(){return 5e3},this.queueUserWorkItem=function(e){var r=e;r instanceof Function&&(r=new t.Thread(r));for(var i=n.length,o=0;o<n.length;o++)if(n[o].priority<r.priority){i=o;break}return i<n.length?n.splice(i,0,r):n.push(r),!0},this.removeQueuedUserWorkItem=function(t){if(t instanceof Function){for(var e=-1,r=0;r<n.length;r++)if(n[r].func==t){e=r;break}return e>-1&&(n.splice(e,1),!0)}for(e=-1,r=0;r<n.length;r++)if(n[r]==t){e=r;break}return e>-1&&(n.splice(e,1),!0)},this.start=function(){s.start()},this.stop=function(){s.stop()},this.abort=function(){this.stop();for(var t=1;t<o.length;t++)o[t]&&window.clearTimeout(o[t]);for(var e in o[0])this.queueUserWorkItem(e);o[0]={}},this.reset=function(){this.abort(),n=[]},this.sleep=function(t){s.stop(),window.setTimeout(s.start,t)},s.onTick=this.invoke}(16,5e3),dojox.timing.ThreadPool});
+//# sourceMappingURL=../sourcemaps/timing/ThreadPool.js.map

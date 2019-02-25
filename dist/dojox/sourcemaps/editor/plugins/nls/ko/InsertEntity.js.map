@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ko/InsertEntity.js"],"names":["define","insertEntity"],"mappings":";;;;;;;AAAAA,QAECC,aAAc","file":"../../../../../editor/plugins/nls/ko/InsertEntity.js","sourcesContent":["define(\r\n({\r\n\tinsertEntity: \"기호 삽입\"\r\n})\r\n);\r\n"]}

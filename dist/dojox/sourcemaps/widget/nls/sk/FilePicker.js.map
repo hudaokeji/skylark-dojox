@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/sk/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,OACNC,KAAM,QACNC,KAAM","file":"../../../../widget/nls/sk/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Meno\",\r\n\tpath: \"Cesta\",\r\n\tsize: \"Veľkosť (v bajtoch)\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/nl/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,OACNC,KAAM,MACNC,KAAM","file":"../../../../widget/nls/nl/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Naam\",\r\n\tpath: \"Pad\",\r\n\tsize: \"Grootte (in bytes)\"\r\n})\r\n);\r\n"]}

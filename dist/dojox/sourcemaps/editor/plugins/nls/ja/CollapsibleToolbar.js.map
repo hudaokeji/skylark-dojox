@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ja/CollapsibleToolbar.js"],"names":["define","collapse","expand"],"mappings":";;;;;;;AAAAA,QAECC,SAAY,iBACZC,OAAU","file":"../../../../../editor/plugins/nls/ja/CollapsibleToolbar.js","sourcesContent":["define(\r\n({\r\n\t\"collapse\": \"エディター・ツールバーを省略\",\r\n\t\"expand\": \"エディター・ツールバーを展開\"\r\n})\r\n);\r\n"]}

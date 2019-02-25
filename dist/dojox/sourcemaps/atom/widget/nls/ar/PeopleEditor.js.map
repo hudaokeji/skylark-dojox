@@ -1,0 +1,1 @@
+{"version":3,"sources":["atom/widget/nls/ar/PeopleEditor.js"],"names":["define","add","addAuthor","addContributor"],"mappings":";;;;;;;AAAAA,QAECC,IAAK,QACLC,UAAW,aACXC,eAAgB","file":"../../../../../atom/widget/nls/ar/PeopleEditor.js","sourcesContent":["define(\r\n({\r\n\tadd: \"اضافة\",\r\n\taddAuthor: \"اضافة مؤلف\",\r\n\taddContributor: \"اضافة مشارك\"\r\n})\r\n);\r\n"]}

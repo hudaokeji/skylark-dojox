@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+dojo.provide("dojox.collections.tests.BinaryTree"),dojo.require("dojox.collections.BinaryTree"),tests.register("dojox.collections.tests.BinaryTree",[function(a){var o=new dojox.collections.BinaryTree("foo");a.assertTrue(o instanceof dojox.collections.BinaryTree)},function(a){var o=new dojox.collections.BinaryTree("foo");o.add("bar"),o.add("baz"),o.add("buck"),o.add("shot"),o.add("apple"),a.assertEqual("apple,bar,baz,buck,foo,shot",o.toString())},function(a){var o=new dojox.collections.BinaryTree("foo");o.add("bar"),o.add("baz"),o.add("buck"),o.add("shot"),o.add("apple"),o.clear(),a.assertEqual(o.count,0)},function(a){var o=new dojox.collections.BinaryTree("foo");o.add("bar"),o.add("baz"),o.add("buck"),o.add("shot"),o.add("apple");var d=o.clone();a.assertEqual(d.count,6),a.assertEqual(o.toString(),d.toString())},function(a){var o=new dojox.collections.BinaryTree("foo");o.add("bar"),o.add("baz"),o.add("buck"),o.add("shot"),o.add("apple"),a.assertTrue(o.contains("buck")),a.assertFalse(o.contains("duck"))},function(a){var o=new dojox.collections.BinaryTree("foo");o.add("bar"),o.add("baz"),o.add("buck"),o.add("shot"),o.add("apple"),o.deleteData("buck"),a.assertEqual("apple,bar,baz,foo,shot",o.toString())},function(a){var o=new dojox.collections.BinaryTree("foo");o.add("bar"),o.add("baz"),o.add("buck"),o.add("shot"),o.add("apple");for(var d=o.getIterator();!d.atEnd();)d.get();a.assertEqual("shot",d.element)},function(a){var o=new dojox.collections.BinaryTree("foo");o.add("bar"),o.add("baz"),o.add("buck"),o.add("shot"),o.add("apple"),a.assertEqual("buck",o.search("buck").value)}]);
+//# sourceMappingURL=../../sourcemaps/collections/tests/BinaryTree.js.map

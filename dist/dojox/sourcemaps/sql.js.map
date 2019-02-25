@@ -1,0 +1,1 @@
+{"version":3,"sources":["sql.js"],"names":["define"],"mappings":";;;;;;;AAAAA,QAAQ,eAAe","file":"../sql.js","sourcesContent":["define(['./sql/_base'],function(){\r\n\t/*=====\r\n\t return {\r\n\t // summary:\r\n\t //\t\tDeprecated.  Should require dojox/sql modules directly rather than trying to access them through\r\n\t //\t\tthis module.\r\n\t };\r\n\t =====*/\r\n});\r\n"]}

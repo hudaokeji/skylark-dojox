@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/tests/doh/errorDef2.js"],"names":["define","Error"],"mappings":";;;;;;;AAAAA,UAAW,WACV,MAAM,IAAIC,MAAM","file":"../../../../app/tests/doh/errorDef2.js","sourcesContent":["define([], function(){\r\n\tthrow new Error(\"error2-error\");\r\n\treturn {\r\n\t\tinit: function(){\r\n\t\t}\r\n\t}\r\n});"]}

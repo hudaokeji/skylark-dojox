@@ -1,0 +1,1 @@
+{"version":3,"sources":["mvc/_patches.js"],"names":["define"],"mappings":";;;;;;;AAAAA,QACC,wBACA,0BACA,wBACE","file":"../../mvc/_patches.js","sourcesContent":["define([\r\n\t\"./_atBindingExtension\",\r\n\t\"./_DataBindingExtension\",\r\n\t\"./_TextBoxExtensions\"\r\n], function(){});\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/ko/CheckedMultiSelect.js"],"names":["define","invalidMessage","multiSelectLabelText"],"mappings":";;;;;;;AAAAA,QAECC,eAAgB,yBAChBC,qBAAsB","file":"../../../../form/nls/ko/CheckedMultiSelect.js","sourcesContent":["define(\r\n({\r\n\tinvalidMessage: \"최소한 한 가지 항목을 선택해야 합니다.\",\r\n\tmultiSelectLabelText: \"{num} 항목이 선택되었습니다.\"\r\n})\r\n);\r\n"]}

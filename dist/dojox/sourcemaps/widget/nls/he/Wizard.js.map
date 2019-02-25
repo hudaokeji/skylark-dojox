@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/he/Wizard.js"],"names":["define","next","previous","done"],"mappings":";;;;;;;AAAAA,QAEAC,KAAM,MACNC,SAAU,QACVC,KAAM","file":"../../../../widget/nls/he/Wizard.js","sourcesContent":["define(\r\n({\r\nnext: \"הבא\",\r\nprevious: \"הקודם\",\r\ndone: \"סיום\"\r\n})\r\n);\r\n"]}

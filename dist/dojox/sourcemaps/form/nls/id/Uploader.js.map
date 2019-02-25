@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/id/Uploader.js"],"names":["define","label"],"mappings":";;;;;;;AAAAA,QAECC,MAAO","file":"../../../../form/nls/id/Uploader.js","sourcesContent":["define(\r\n({\r\n\tlabel: \"Pilih File...\"\r\n})\r\n);\r\n\r\n"]}

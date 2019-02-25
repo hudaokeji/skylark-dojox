@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["dojo","dojox","dojo/dnd/Selector"],function(e,t){return e.declare("dojox.dnd.Selector",e.dnd.Selector,{conservative:!0,isSelected:function(t){var i=e.isString(t)?t:t.id;return this.getItem(i)&&this.selected[i]},selectNode:function(t,i){i||this.selectNone();var s=e.isString(t)?t:t.id;return this.getItem(s)&&(this._removeAnchor(),this.anchor=e.byId(t),this._addItemClass(this.anchor,"Anchor"),this.selection[s]=1,this._addItemClass(this.anchor,"Selected")),this},deselectNode:function(t){var i=e.isString(t)?t:t.id;return this.getItem(i)&&this.selection[i]&&(this.anchor===e.byId(t)&&this._removeAnchor(),delete this.selection[i],this._removeItemClass(this.anchor,"Selected")),this},selectByBBox:function(t,i,s,o,n){return n||this.selectNone(),this.forInItems(function(n,r){var h=e.byId(r);h&&this._isBoundedByBox(h,t,i,s,o)&&this.selectNode(r,!0)},this),this},_isBoundedByBox:function(e,t,i,s,o){return this.conservative?this._conservativeBBLogic(e,t,i,s,o):this._liberalBBLogic(e,t,i,s,o)},shift:function(e,t){var i=this.getSelectedNodes();i&&i.length&&this.selectNode(this._getNodeId(i[i.length-1].id,e),t)},_getNodeId:function(e,t){for(var i=this.getAllNodes(),s=e,o=0,n=i.length;o<n;++o)if(i[o].id==e){var r=Math.min(n-1,Math.max(0,o+(t?1:-1)));o!=r&&(s=i[r].id);break}return s},_conservativeBBLogic:function(t,i,s,o,n){var r,h=e.coords(t);return i>o&&(r=i,i=o,o=r),s>n&&(r=s,s=n,n=r),h.x>=i&&h.x+h.w<=o&&h.y>=s&&h.y+h.h<=n},_liberalBBLogic:function(t,i,s,o,n){var r,h,c,d,l=e.position(t),a=!1,u=!1,v=l.x,g=l.y,B=l.x+l.w,f=l.y+l.h;return i<o?(r=i,h=s):(a=!0,r=o,h=n),s<n?(u=!0,c=o,d=n):(c=i,d=s,r=o,h=n),a&&u&&(c=i,d=n,r=o,h=s),((v>=r||B<=c)&&r<=B&&c>=v||v<=r&&B>=c)&&(h<=f&&d>=g||f>=d&&g<=d)}})});
+//# sourceMappingURL=../sourcemaps/dnd/Selector.js.map

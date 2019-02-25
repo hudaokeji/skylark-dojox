@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/nb/InsertEntity.js"],"names":["define","insertEntity"],"mappings":";;;;;;;AAAAA,QAECC,aAAc","file":"../../../../../editor/plugins/nls/nb/InsertEntity.js","sourcesContent":["define(\r\n({\r\n\tinsertEntity: \"Sett inn symbol\"\r\n})\r\n);\r\n"]}

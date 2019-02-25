@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/tr/TextColor.js"],"names":["define","setButtonText","cancelButtonText"],"mappings":";;;;;;;AAAAA,QAECC,cAAiB,SACjBC,iBAAoB","file":"../../../../../editor/plugins/nls/tr/TextColor.js","sourcesContent":["define(\r\n({\r\n\t\"setButtonText\": \"Ayarla\",\r\n\t\"cancelButtonText\": \"İptal\"\r\n})\r\n);\r\n"]}

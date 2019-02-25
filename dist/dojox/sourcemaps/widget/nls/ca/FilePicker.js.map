@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/ca/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,MACNC,KAAM,eACNC,KAAM","file":"../../../../widget/nls/ca/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Nom\",\r\n\tpath: \"Camí d'accés\",\r\n\tsize: \"Mida (en bytes)\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/hr/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,MACNC,KAAM,QACNC,KAAM","file":"../../../../widget/nls/hr/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Ime\",\r\n\tpath: \"Staza\",\r\n\tsize: \"Veličina (u bajtovima)\"\r\n})\r\n);\r\n"]}

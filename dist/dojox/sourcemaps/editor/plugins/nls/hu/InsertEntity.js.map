@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/hu/InsertEntity.js"],"names":["define","insertEntity"],"mappings":";;;;;;;AAAAA,QAECC,aAAc","file":"../../../../../editor/plugins/nls/hu/InsertEntity.js","sourcesContent":["define(\r\n({\r\n\tinsertEntity: \"Szimbólum beszúrása\"\r\n})\r\n);\r\n"]}

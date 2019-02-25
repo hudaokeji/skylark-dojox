@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/hu/Blockquote.js"],"names":["define","blockquote"],"mappings":";;;;;;;AAAAA,QAECC,WAAc","file":"../../../../../editor/plugins/nls/hu/Blockquote.js","sourcesContent":["define(\r\n({\r\n\t\"blockquote\": \"Idézet\"\r\n})\r\n);\r\n"]}

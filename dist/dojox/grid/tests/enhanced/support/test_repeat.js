@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+!function(){var e=0,t=1e3,o=500;function d(t){try{var o=dijit.byId("grid");for(o&&o.destroyRecursive(),dojo.publish("test_repeat_grid_destroyed"),e+=t;e<0;e+=layout.length);e%=layout.length,console.log("grid plugin args:",gridAttrs.plugins,e);var d=(new Date).getTime();return(o=new dojox.grid.EnhancedGrid(dojo.mixin({id:"grid",store:test_store[0],structure:layout[e]},gridAttrs||{}))).placeAt(dojo.byId("gridContainer")),o.startup(),dojo.byId("num").value=e,console.log(e+"---------------------------------------------------------------",(new Date).getTime()-d,"ms"),dojo.publish("test_repeat_grid_created"),o}catch(e){console.log("createGrid:",e)}}var n=t;function r(){if(n>0)--n,d(1),setTimeout(r,o);else{var e=dijit.byId("grid");e&&e.destroyRecursive(),n=t}}function i(){n=0}function a(){var t=parseInt(dojo.byId("num").value)%layout.length;e=isNaN(t)?e:t,d(0)}function c(){var e=dijit.byId("grid");e&&e.destroyRecursive(),dojo.publish("test_repeat_grid_destroyed")}dojo.addOnLoad(function(){var t=dojo.byId("ctrlBtns");t.appendChild(dojo.create("button",{innerHTML:"Play",onclick:r})),t.appendChild(dojo.create("button",{innerHTML:"Stop",onclick:i})),t.appendChild(dojo.create("button",{innerHTML:"Prev",onclick:dojo.partial(d,-1)})),t.appendChild(dojo.create("button",{innerHTML:"Next",onclick:dojo.partial(d,1)})),t.appendChild(dojo.create("input",{id:"num",value:e,type:"text"})),t.appendChild(dojo.create("button",{innerHTML:"Create",onclick:a})),t.appendChild(dojo.create("button",{innerHTML:"Destroy",onclick:c}))})}();
+//# sourceMappingURL=../../../../sourcemaps/grid/tests/enhanced/support/test_repeat.js.map

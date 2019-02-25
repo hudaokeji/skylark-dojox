@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["dojo/_base/lang","dojo/dom","dojo/on","dijit/registry","dojo/dom-class"],function(t,i,s,e,o){var r=[];return{setDetailsContext:function(t,i,s){s?s.cursor=t:s={cursor:t};var e={title:"itemDetails",target:"itemDetails",url:"#itemDetails",params:s};this.app.transitionToView(i.target,e,i)},insertResult:function(t,i){if(t<0||t>this.list.store.data.length)throw Error("index out of data model.");if(!(""==this.list.store.data[t-1].First||this.list.store.data[t]&&""==this.list.store.data[t].First)){var s={id:Math.random(),label:"",rightIcon:"mblDomButtonBlueCircleArrow",First:"",Last:"",Location:"CA",Office:"",Email:"",Tel:"",Fax:""};this.list.store.add(s),this.setDetailsContext(t,i)}},init:function(){var t=this.list;t.Store||t.setStore(this.loadedStores.listStore)},beforeActivate:function(){var e;o.remove(i.byId("listInsert1"),"hide"),o.add(i.byId("listInsert1"),"show"),e=this.list.on("click",t.hitch(this,function(t){console.log("List on click hit ",t);var i=this.list.store.query({label:t.target.innerHTML}),s=this.list.store.index[i[0].id];console.log("index is "+s),this.setDetailsContext(s,t,this.params)})),r.push(e);var a=i.byId("listInsert1");e=s(a,"click",t.hitch(this,function(t){console.log("listInsert1 on click hit ",t);var i=this.list.store.data.length;this.insertResult(i,t)})),r.push(e)},beforeDeactivate:function(){o.remove(i.byId("listInsert1"),"show"),o.add(i.byId("listInsert1"),"hide")},afterDeactivate:function(){for(var t=r.pop();t;)t.remove(),t=r.pop()},destroy:function(){}}});
+//# sourceMappingURL=../../../../../sourcemaps/app/tests/mediaQueryLayoutApp/views/list/list.js.map

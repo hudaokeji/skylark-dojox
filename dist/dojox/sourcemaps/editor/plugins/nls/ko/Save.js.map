@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ko/Save.js"],"names":["define","save"],"mappings":";;;;;;;AAAAA,QAECC,KAAQ","file":"../../../../../editor/plugins/nls/ko/Save.js","sourcesContent":["define(\r\n({\r\n\t\"save\": \"저장\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/zh-tw/Blockquote.js"],"names":["define","blockquote"],"mappings":";;;;;;;AAAAA,QAECC,WAAc","file":"../../../../../editor/plugins/nls/zh-tw/Blockquote.js","sourcesContent":["define(\r\n({\r\n\t\"blockquote\": \"區塊引文\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["./GanttTaskItem","dojo/_base/declare","./GanttProjectControl","dojo/domReady!"],function(s,a){return a("dojox.gantt.GanttProjectItem",[s],{constructor:function(s){this.id=s.id,this.name=s.name||this.id,this.startDate=s.startDate||new Date,this.parentTasks=[]},getTaskById:function(s){for(var a=0;a<this.parentTasks.length;a++){var e=this.parentTasks[a],t=this.getTaskByIdInTree(e,s);if(t)return t}return null},getTaskByIdInTree:function(s,a){if(s.id==a)return s;for(var e=0;e<s.cldTasks.length;e++){var t=s.cldTasks[e];if(t.id==a)return t;if(t.cldTasks.length>0&&t.cldTasks.length>0){var n=this.getTaskByIdInTree(t,a);if(n)return n}}return null},addTask:function(s){this.parentTasks.push(s),s.setProject(this)},deleteTask:function(s){var a=this.getTaskById(s);if(a)if(a.parentTask){var e=a.parentTask;for(n=0;n<e.cldTasks.length;n++){var t=e.cldTasks[n];if(t.id==s){t.nextChildTask?t.previousChildTask?(t.previousChildTask.nextChildTask=t.nextChildTask,t.nextChildTask.previousChildTask=t.previousChildTask):t.nextChildTask.previousChildTask=null:t.previousChildTask&&(t.previousChildTask.nextChildTask=null),t=null,e.cldTasks.splice(n,1);break}}}else for(var n=0;n<this.parentTasks.length;n++){var r=this.parentTasks[n];if(r.id==s){r.nextParentTask?r.previousParentTask?(r.previousParentTask.nextParentTask=r.nextParentTask,r.nextParentTask.previousParentTask=r.previousParentTask):r.nextParentTask.previousParentTask=null:r.previousParentTask&&(r.previousParentTask.nextParentTask=null),r=null,this.parentTasks.splice(n,1);break}}}})});
+//# sourceMappingURL=../sourcemaps/gantt/GanttProjectItem.js.map

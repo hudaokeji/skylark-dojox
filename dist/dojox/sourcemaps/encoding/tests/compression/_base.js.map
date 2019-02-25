@@ -1,0 +1,1 @@
+{"version":3,"sources":["encoding/tests/compression/_base.js"],"names":["define"],"mappings":";;;;;;;AAAAA,QAAQ,UAAW","file":"../../../../encoding/tests/compression/_base.js","sourcesContent":["define(['./splay', './lzw'], {});\r\n"]}

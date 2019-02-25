@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/CalendarViews.js"],"names":["define","kernel","experimental"],"mappings":";;;;;;;AAAAA,QACC,qBACE,SAASC,GAEX,OADAA,EAAOC,aAAa","file":"../../widget/CalendarViews.js","sourcesContent":["define([\r\n\t\"dojo/_base/kernel\"\r\n], function(kernel){\r\n\tkernel.experimental(\"dojox/widget/CalendarViews\");\r\n\treturn {};\r\n});\r\n"]}

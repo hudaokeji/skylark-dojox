@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/zh-tw/ShowBlockNodes.js"],"names":["define","showBlockNodes"],"mappings":";;;;;;;AAAAA,QAECC,eAAkB","file":"../../../../../editor/plugins/nls/zh-tw/ShowBlockNodes.js","sourcesContent":["define(\r\n({\r\n\t\"showBlockNodes\": \"顯示 HTML 區塊元素\"\r\n})\r\n);\r\n"]}

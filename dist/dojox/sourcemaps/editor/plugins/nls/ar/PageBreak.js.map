@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ar/PageBreak.js"],"names":["define","pageBreak"],"mappings":";;;;;;;AAAAA,QAECC,UAAa","file":"../../../../../editor/plugins/nls/ar/PageBreak.js","sourcesContent":["define(\r\n({\r\n\t\"pageBreak\": \"فاصل الصفحات\"\r\n})\r\n);\r\n"]}

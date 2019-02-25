@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/th/PageBreak.js"],"names":["define","pageBreak"],"mappings":";;;;;;;AAAAA,QAECC,UAAa","file":"../../../../../editor/plugins/nls/th/PageBreak.js","sourcesContent":["define(\r\n({\r\n\t\"pageBreak\": \"เส้นกั้นหน้า\"\r\n})\r\n);\r\n"]}

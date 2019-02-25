@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/th/TextColor.js"],"names":["define","setButtonText","cancelButtonText"],"mappings":";;;;;;;AAAAA,QAECC,cAAiB,OACjBC,iBAAoB","file":"../../../../../editor/plugins/nls/th/TextColor.js","sourcesContent":["define(\r\n({\r\n\t\"setButtonText\": \"เซ็ต\",\r\n\t\"cancelButtonText\": \"ยกเลิก\"\r\n})\r\n);\r\n"]}

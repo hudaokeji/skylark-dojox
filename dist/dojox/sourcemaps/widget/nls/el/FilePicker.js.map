@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/el/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,QACNC,KAAM,WACNC,KAAM","file":"../../../../widget/nls/el/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Όνομα\",\r\n\tpath: \"Διαδρομή\",\r\n\tsize: \"Μέγεθος (σε bytes)\"\r\n})\r\n);\r\n"]}

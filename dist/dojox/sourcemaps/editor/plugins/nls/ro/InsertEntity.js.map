@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ro/InsertEntity.js"],"names":["define","insertEntity"],"mappings":";;;;;;;AAAAA,QAECC,aAAc","file":"../../../../../editor/plugins/nls/ro/InsertEntity.js","sourcesContent":["define(\r\n({\r\n\tinsertEntity: \"Inserare simbol\"\r\n})\r\n);\r\n"]}

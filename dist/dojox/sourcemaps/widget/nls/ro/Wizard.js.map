@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/ro/Wizard.js"],"names":["define","next","previous","done"],"mappings":";;;;;;;AAAAA,QAEAC,KAAM,UACNC,SAAU,WACVC,KAAM","file":"../../../../widget/nls/ro/Wizard.js","sourcesContent":["define(\r\n({\r\nnext: \"Următor\",\r\nprevious: \"Anterior\",\r\ndone: \"Gata\"\r\n})\r\n);\r\n"]}

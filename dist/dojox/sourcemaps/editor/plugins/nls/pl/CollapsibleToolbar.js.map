@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/pl/CollapsibleToolbar.js"],"names":["define","collapse","expand"],"mappings":";;;;;;;AAAAA,QAECC,SAAY,8BACZC,OAAU","file":"../../../../../editor/plugins/nls/pl/CollapsibleToolbar.js","sourcesContent":["define(\r\n({\r\n\t\"collapse\": \"Zwiń pasek narzędzi edytora\",\r\n\t\"expand\": \"Rozwiń pasek narzędzi edytora\"\r\n})\r\n);\r\n"]}

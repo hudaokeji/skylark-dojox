@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/zh-tw/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,KACNC,KAAM,KACNC,KAAM","file":"../../../../widget/nls/zh-tw/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"名稱\",\r\n\tpath: \"路徑\",\r\n\tsize: \"大小 (以位元組為單位)\"\r\n})\r\n);\r\n"]}

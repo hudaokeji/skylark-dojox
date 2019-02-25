@@ -1,0 +1,1 @@
+{"version":3,"sources":["store/tests/intern.proxy.js"],"names":["define","config","excludeInstrumentation"],"mappings":";;;;;;;AAAAA,QACC,YACE,SAAUC,GAGZ,OAFAA,EAAOC,uBAAyB,MAEzBD","file":"../../../store/tests/intern.proxy.js","sourcesContent":["define([\r\n\t'./intern'\r\n], function (config) {\r\n\tconfig.excludeInstrumentation = /^.*/;\r\n\r\n\treturn config;\r\n});\r\n"]}

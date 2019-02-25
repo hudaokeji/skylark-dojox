@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ru/Preview.js"],"names":["define","preview"],"mappings":";;;;;;;AAAAA,QAECC,QAAW","file":"../../../../../editor/plugins/nls/ru/Preview.js","sourcesContent":["define(\r\n({\r\n\t\"preview\": \"Предварительный просмотр\"\r\n})\r\n);\r\n"]}

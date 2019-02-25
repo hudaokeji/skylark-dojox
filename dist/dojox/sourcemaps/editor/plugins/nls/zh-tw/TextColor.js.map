@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/zh-tw/TextColor.js"],"names":["define","setButtonText","cancelButtonText"],"mappings":";;;;;;;AAAAA,QAECC,cAAiB,KACjBC,iBAAoB","file":"../../../../../editor/plugins/nls/zh-tw/TextColor.js","sourcesContent":["define(\r\n({\r\n\t\"setButtonText\": \"設定\",\r\n\t\"cancelButtonText\": \"取消\"\r\n})\r\n);\r\n"]}

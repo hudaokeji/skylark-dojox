@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ca/PageBreak.js"],"names":["define","pageBreak"],"mappings":";;;;;;;AAAAA,QAECC,UAAa","file":"../../../../../editor/plugins/nls/ca/PageBreak.js","sourcesContent":["define(\r\n({\r\n\t\"pageBreak\": \"Salt de pàgina\"\r\n})\r\n);\r\n"]}

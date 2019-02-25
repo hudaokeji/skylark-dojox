@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/el/Blockquote.js"],"names":["define","blockquote"],"mappings":";;;;;;;AAAAA,QAECC,WAAc","file":"../../../../../editor/plugins/nls/el/Blockquote.js","sourcesContent":["define(\r\n({\r\n\t\"blockquote\": \"Ενότητα παράθεσης\"\r\n})\r\n);\r\n"]}

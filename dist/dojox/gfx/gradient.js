@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["dojo/_base/lang","./matrix","dojo/_base/Color"],function(o,t,e){var r=o.getObject("dojox.gfx.gradient",!0),f=e;function l(o,e,r,f,l,n){var s=t.multiplyPoint(r,o,e),c=t.multiplyPoint(f,s);return{r:s,p:c,o:t.multiplyPoint(l,c).x/n}}function n(o,t){return o.o-t.o}return r.rescale=function(o,t,r){var l,n=o.length,s=r<t;if(s){var c=t;t=r,r=c}if(!n)return[];if(r<=o[0].offset)l=[{offset:0,color:o[0].color},{offset:1,color:o[0].color}];else if(t>=o[n-1].offset)l=[{offset:0,color:o[n-1].color},{offset:1,color:o[n-1].color}];else{var i,y,u,x=r-t;for(l=[],t<0&&l.push({offset:0,color:new f(o[0].color)}),u=0;u<n&&!((i=o[u]).offset>=t);++u);for(u?(y=o[u-1],l.push({offset:0,color:e.blendColors(new f(y.color),new f(i.color),(t-y.offset)/(i.offset-y.offset))})):l.push({offset:0,color:new f(i.color)});u<n&&!((i=o[u]).offset>=r);++u)l.push({offset:(i.offset-t)/x,color:new f(i.color)});u<n?(y=o[u-1],l.push({offset:1,color:e.blendColors(new f(y.color),new f(i.color),(r-y.offset)/(i.offset-y.offset))})):l.push({offset:1,color:new f(o[n-1].color)})}if(s)for(l.reverse(),u=0,n=l.length;u<n;++u)(i=l[u]).offset=1-i.offset;return l},r.project=function(o,e,f,s,c,i){o=o||t.identity;var y=t.multiplyPoint(o,e.x1,e.y1),u=t.multiplyPoint(o,e.x2,e.y2),x=Math.atan2(u.y-y.y,u.x-y.x),a=t.project(u.x-y.x,u.y-y.y),p=t.multiplyPoint(a,y),d=t.multiplyPoint(a,u),h=new t.Matrix2D([t.rotate(-x),{dx:-p.x,dy:-p.y}]),m=t.multiplyPoint(h,d).x,w=[l(f.x,f.y,o,a,h,m),l(s.x,s.y,o,a,h,m),l(f.x,s.y,o,a,h,m),l(s.x,f.y,o,a,h,m)].sort(n),P=w[0].o,g=w[3].o,v=r.rescale(e.colors,P,g);Math.atan2(w[3].r.y-w[0].r.y,w[3].r.x-w[0].r.x);return{type:"linear",x1:w[0].p.x,y1:w[0].p.y,x2:w[3].p.x,y2:w[3].p.y,colors:v,angle:x}},r});
+//# sourceMappingURL=../sourcemaps/gfx/gradient.js.map

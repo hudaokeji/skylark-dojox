@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/ja/Uploader.js"],"names":["define","label"],"mappings":";;;;;;;AAAAA,QAECC,MAAO","file":"../../../../form/nls/ja/Uploader.js","sourcesContent":["define(\r\n({\r\n\tlabel: \"ファイルの選択...\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/he/CollapsibleToolbar.js"],"names":["define","collapse","expand"],"mappings":";;;;;;;AAAAA,QAECC,SAAY,6BACZC,OAAU","file":"../../../../../editor/plugins/nls/he/CollapsibleToolbar.js","sourcesContent":["define(\r\n({\r\n\t\"collapse\": \"כיווץ סרגל הכלים של העורך \",\r\n\t\"expand\": \"הרחבת סרגל הכלים של העורך\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ja/BidiSupport.js"],"names":["define","ltr","rtl"],"mappings":";;;;;;;AAAAA,QAECC,IAAO,eACPC,IAAO","file":"../../../../../editor/plugins/nls/ja/BidiSupport.js","sourcesContent":["define({      \r\n//begin v1.x content\r\n\t\"ltr\": \"テキストの方向は左から右\",\r\n\t\"rtl\": \"テキストの方向は右から左\"\r\n//end v1.x content\r\n});\r\n\r\n"]}

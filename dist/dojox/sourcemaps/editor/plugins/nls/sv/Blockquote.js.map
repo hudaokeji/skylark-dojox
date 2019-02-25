@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/sv/Blockquote.js"],"names":["define","blockquote"],"mappings":";;;;;;;AAAAA,QAECC,WAAc","file":"../../../../../editor/plugins/nls/sv/Blockquote.js","sourcesContent":["define(\r\n({\r\n\t\"blockquote\": \"Blockcitat\"\r\n})\r\n);\r\n"]}

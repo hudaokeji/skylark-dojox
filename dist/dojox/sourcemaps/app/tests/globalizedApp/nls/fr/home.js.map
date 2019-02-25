@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/tests/globalizedApp/nls/fr/home.js"],"names":["define","label1","label2"],"mappings":";;;;;;;AAAAA,QACCC,OAAQ,eACRC,OAAQ","file":"../../../../../../app/tests/globalizedApp/nls/fr/home.js","sourcesContent":["define({\r\n\tlabel1: \"Etiquette Un\",\r\n\tlabel2: \"Etiquette Deux\"\r\n});"]}

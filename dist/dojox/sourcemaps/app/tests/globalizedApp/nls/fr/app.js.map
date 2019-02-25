@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/tests/globalizedApp/nls/fr/app.js"],"names":["define","home","label0"],"mappings":";;;;;;;AAAAA,QACCC,KAAM,SACHC,OAAQ","file":"../../../../../../app/tests/globalizedApp/nls/fr/app.js","sourcesContent":["define({\r\n\thome: \"Maison\",\r\n   \tlabel0: \"Etiquette 0\"\r\n});"]}

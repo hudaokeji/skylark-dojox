@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/fi/InsertEntity.js"],"names":["define","insertEntity"],"mappings":";;;;;;;AAAAA,QAECC,aAAc","file":"../../../../../editor/plugins/nls/fi/InsertEntity.js","sourcesContent":["define(\r\n({\r\n\tinsertEntity: \"Lisää symboli\"\r\n})\r\n);\r\n"]}

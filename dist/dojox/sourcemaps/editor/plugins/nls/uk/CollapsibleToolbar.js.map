@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/uk/CollapsibleToolbar.js"],"names":["define","collapse","expand"],"mappings":";;;;;;;AAAAA,QAECC,SAAY,8BACZC,OAAU","file":"../../../../../editor/plugins/nls/uk/CollapsibleToolbar.js","sourcesContent":["define(\r\n({\r\n\t\"collapse\": \"Згорнути панель редагування\",\r\n\t\"expand\": \"Розгорнути панель редагування\"\r\n})\r\n);\r\n"]}

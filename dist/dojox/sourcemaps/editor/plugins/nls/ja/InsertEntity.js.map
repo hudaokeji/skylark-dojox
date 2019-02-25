@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ja/InsertEntity.js"],"names":["define","insertEntity"],"mappings":";;;;;;;AAAAA,QAECC,aAAc","file":"../../../../../editor/plugins/nls/ja/InsertEntity.js","sourcesContent":["define(\r\n({\r\n\tinsertEntity: \"記号の挿入\"\r\n})\r\n);\r\n"]}

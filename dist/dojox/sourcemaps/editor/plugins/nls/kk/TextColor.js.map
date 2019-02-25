@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/kk/TextColor.js"],"names":["define","setButtonText","cancelButtonText"],"mappings":";;;;;;;AAAAA,QAECC,cAAiB,SACjBC,iBAAoB","file":"../../../../../editor/plugins/nls/kk/TextColor.js","sourcesContent":["define(\r\n({\r\n\t\"setButtonText\": \"Орнату\",\r\n\t\"cancelButtonText\": \"Болдырмау\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/uk/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,OACNC,KAAM,OACNC,KAAM","file":"../../../../widget/nls/uk/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Ім'я\",\r\n\tpath: \"Шлях\",\r\n\tsize: \"Розмір (у байтах)\"\r\n})\r\n);\r\n"]}

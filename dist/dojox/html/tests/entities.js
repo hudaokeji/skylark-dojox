@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+dojo.provide("dojox.html.tests.entities"),dojo.require("dojox.html.entities"),doh.register("dojox.html.tests.entities",[{name:"Encode:  Basic HTML Entities",runTest:function(t){var e=dojox.html.entities.encode('This is some " text " with & entities inside it that <need to be escaped>');doh.assertEqual("This is some &quot; text &quot; with &amp; entities inside it that &lt;need to be escaped&gt;",e)}},{name:"Decode:  Basic HTML Entities",runTest:function(t){var e=dojox.html.entities.decode("This is some &quot; text &quot; with &amp; entities inside it that &lt;need to be escaped&gt;");doh.assertEqual('This is some " text " with & entities inside it that <need to be escaped>',e)}},{name:"Encode:  Basic Latin Entities",runTest:function(t){var e,i="",s="",o=dojox.html.entities.latin;for(e=0;e<o.length;e++)i+=o[e][0],s+="&"+o[e][1]+";";var n=dojox.html.entities.encode(i);doh.assertEqual(s,n)}},{name:"Decode:  Basic Latin Entities",runTest:function(t){var e,i="",s="",o=dojox.html.entities.latin;for(e=0;e<o.length;e++)i+="&"+o[e][1]+";",s+=o[e][0];var n=dojox.html.entities.decode(i);doh.assertEqual(s,n)}},{name:"Encode:  Custom entity map",runTest:function(t){var e=dojox.html.entities.encode('This is some " text with & entities inside it that <need to be escaped>',[['"',"quot"]]);doh.assertEqual("This is some &quot; text with & entities inside it that <need to be escaped>",e)}},{name:"Decode:  Custom entity map",runTest:function(t){var e=dojox.html.entities.decode("This is some &quot; text with & entities inside it that <need to be escaped>",[['"',"quot"]]);doh.assertEqual('This is some " text with & entities inside it that <need to be escaped>',e)}}]);
+//# sourceMappingURL=../../sourcemaps/html/tests/entities.js.map

@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/kk/Preview.js"],"names":["define","preview"],"mappings":";;;;;;;AAAAA,QAECC,QAAW","file":"../../../../../editor/plugins/nls/kk/Preview.js","sourcesContent":["define(\r\n({\r\n\t\"preview\": \"Алдын ала қарау\"\r\n})\r\n);\r\n"]}

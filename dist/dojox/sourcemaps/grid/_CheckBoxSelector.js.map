@@ -1,0 +1,1 @@
+{"version":3,"sources":["grid/_CheckBoxSelector.js"],"names":["define","dojox","grid","_CheckBoxSelector"],"mappings":";;;;;;;AAAAA,QAAQ,UAAW,eAAgB,SAASC,GAC3C,OAAOA,EAAMC,KAAKC","file":"../../grid/_CheckBoxSelector.js","sourcesContent":["define([\"../main\", \"./_Selector\"], function(dojox){\r\n\treturn dojox.grid._CheckBoxSelector;\r\n});"]}

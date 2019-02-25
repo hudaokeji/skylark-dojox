@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/ar/Uploader.js"],"names":["define","label"],"mappings":";;;;;;;AAAAA,QAECC,MAAO","file":"../../../../form/nls/ar/Uploader.js","sourcesContent":["define(\r\n({\r\n\tlabel: \"تحديد ملفات...\"\r\n})\r\n);\r\n"]}

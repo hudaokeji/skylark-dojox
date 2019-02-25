@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["dojo/dom","dojo/dom-style","dojo/_base/connect","dijit/registry","dojo/sniff","dojox/mobile/TransitionEvent"],function(t,o,i,e,s,n){var a=[],l=null,p=null;return{init:function(){p=this.app;var o=i.connect(t.byId("sc2insert10x"),"click",function(){p&&(p.listStart||(p.listStart=1,p.listCount=5),setTimeout(function(){for(var t=p.listStart;t<p.listStart+5;t++){var o={label:"Item #"+t};p.stores.longlistStore.store.put(o)}return p.listStart+=p.listCount,p.listTotal=p.listStart-1,!1},500))});a.push(o)},beforeActivate:function(){t.byId("sc2back1")&&!s("phone")&&o.set(t.byId("sc2back1"),"visibility","hidden"),p.list2=e.byId("list2"),(l=p.list2).store||l.setStore(p.stores.longlistStore.store),t.byId("tab1WrapperA")&&(o.set(t.byId("tab1WrapperA"),"visibility","visible"),o.set(t.byId("tab1WrapperB"),"visibility","visible"))},afterActivate:function(){if(this.app.timedAutoFlow||this.app.timed100Loops){this.app.loopCount||(this.app.loopCount=0,console.log("V2:afterActivate loopCount = 0 start timer"),console.time("timing transition loop")),this.app.loopCount++;var t=null;if(this.app.timed100Loops)this.app.loopCount<100?(t=e.byId("dojox_mobile_ListItem_6"))&&new n(t.domNode,t.params).dispatch():(console.log("V2:afterActivate loopCount = 100 stop timer"),console.timeEnd("timing transition loop"));else if(1===this.app.loopCount?t=e.byId("dojox_mobile_ListItem_1"):2===this.app.loopCount?t=e.byId("dojox_mobile_ListItem_5"):7===this.app.loopCount&&(t=e.byId("dojox_mobile_ListItem_0")),t)new n(t.domNode,t.params).dispatch()}},beforeDeactivate:function(){},afterDeactivate:function(){},destroy:function(){for(var t=a.pop();t;)i.disconnect(t),t=a.pop()}}});
+//# sourceMappingURL=../../../../sourcemaps/app/tests/nestedTestApp/views/V2.js.map

@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/nl/CollapsibleToolbar.js"],"names":["define","collapse","expand"],"mappings":";;;;;;;AAAAA,QAECC,SAAY,8BACZC,OAAU","file":"../../../../../editor/plugins/nls/nl/CollapsibleToolbar.js","sourcesContent":["define(\r\n({\r\n\t\"collapse\": \"Editor-werkbalk samenvouwen\",\r\n\t\"expand\": \"Editor-werkbalk uitvouwen\"\r\n})\r\n);\r\n"]}

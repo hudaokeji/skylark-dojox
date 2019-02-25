@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/zh-tw/CheckedMultiSelect.js"],"names":["define","invalidMessage","multiSelectLabelText"],"mappings":";;;;;;;AAAAA,QAECC,eAAgB,cAChBC,qBAAsB","file":"../../../../form/nls/zh-tw/CheckedMultiSelect.js","sourcesContent":["define(\r\n({\r\n\tinvalidMessage: \"必須選取至少一個項目。\",\r\n\tmultiSelectLabelText: \"已選取 {num} 個項目\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ko/BidiSupport.js"],"names":["define","ltr","rtl"],"mappings":";;;;;;;AAAAA,QAECC,IAAO,oBACPC,IAAO","file":"../../../../../editor/plugins/nls/ko/BidiSupport.js","sourcesContent":["define({      \r\n//begin v1.x content\r\n\t\"ltr\": \"왼쪽에서 오른쪽으로 텍스트 방향\",\r\n\t\"rtl\": \"오른쪽에서 왼쪽으로 텍스트 방향\"\r\n//end v1.x content\r\n});\r\n\r\n"]}

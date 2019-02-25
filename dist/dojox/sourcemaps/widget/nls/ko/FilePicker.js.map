@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/ko/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,KACNC,KAAM,KACNC,KAAM","file":"../../../../widget/nls/ko/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"이름\",\r\n\tpath: \"경로\",\r\n\tsize: \"크기(바이트)\"\r\n})\r\n);\r\n"]}

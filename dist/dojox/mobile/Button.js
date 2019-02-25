@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["dojo/_base/array","dojo/_base/declare","dojo/_base/window","dojo/dom","dojo/dom-class","dojo/dom-construct","dojo/touch","dojo/on","./common","dijit/_WidgetBase","dijit/form/_ButtonMixin","dijit/form/_FormWidgetMixin","dojo/has","dojo/has!dojo-bidi?dojox/mobile/bidi/Button"],function(o,e,t,i,s,d,n,r,c,h,a,u,l,f){var m=e(l("dojo-bidi")?"dojox.mobile.NonBidiButton":"dojox.mobile.Button",[h,u,a],{baseClass:"mblButton",_setTypeAttr:null,isFocusable:function(){return!1},buildRendering:function(){if(this.srcNodeRef){if(this._cv){var o=this.srcNodeRef.firstChild;o&&3===o.nodeType&&(o.nodeValue=this._cv(o.nodeValue))}}else this.srcNodeRef=d.create("button",{type:this.type});this.inherited(arguments),this.focusNode=this.domNode},postCreate:function(){this.inherited(arguments),this.domNode.dojoClick="useTarget";var o=this;this.on(n.press,function(e){if(e.preventDefault(),!o.domNode.disabled){o._press(!0);var s=!1;o._moveh=r(t.doc,n.move,function(e){s||(e.preventDefault(),s=!0),o._press(i.isDescendant(e.target,o.domNode))}),o._endh=r(t.doc,n.release,function(e){o._press(!1),o._moveh.remove(),o._endh.remove()})}}),c.setSelectable(this.focusNode,!1),this.connect(this.domNode,"onclick","_onClick")},_press:function(e){if(e!=this._pressed){this._pressed=e;var t=this.focusNode||this.domNode,i=(this.baseClass+" "+this.class).split(" ");i=o.map(i,function(o){return o+"Selected"}),s.toggle(t,i,e)}},_setLabelAttr:function(o){this.inherited(arguments,[this._cv?this._cv(o):o])}});return l("dojo-bidi")?e("dojox.mobile.Button",[m,f]):m});
+//# sourceMappingURL=../sourcemaps/mobile/Button.js.map

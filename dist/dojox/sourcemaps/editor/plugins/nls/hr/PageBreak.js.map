@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/hr/PageBreak.js"],"names":["define","pageBreak"],"mappings":";;;;;;;AAAAA,QAECC,UAAa","file":"../../../../../editor/plugins/nls/hr/PageBreak.js","sourcesContent":["define(\r\n({\r\n\t\"pageBreak\": \"Prijelom stranice\"\r\n})\r\n);\r\n"]}

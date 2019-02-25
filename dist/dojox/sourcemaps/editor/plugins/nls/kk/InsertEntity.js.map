@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/kk/InsertEntity.js"],"names":["define","insertEntity"],"mappings":";;;;;;;AAAAA,QAECC,aAAc","file":"../../../../../editor/plugins/nls/kk/InsertEntity.js","sourcesContent":["define(\r\n({\r\n\tinsertEntity: \"Нышанды кірістіру\"\r\n})\r\n);\r\n"]}

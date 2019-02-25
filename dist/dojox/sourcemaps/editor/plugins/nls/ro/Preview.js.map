@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ro/Preview.js"],"names":["define","preview"],"mappings":";;;;;;;AAAAA,QAECC,QAAW","file":"../../../../../editor/plugins/nls/ro/Preview.js","sourcesContent":["define(\r\n({\r\n\t\"preview\": \"Previzualizare\"\r\n})\r\n);\r\n"]}

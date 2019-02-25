@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/sl/Wizard.js"],"names":["define","next","previous","done"],"mappings":";;;;;;;AAAAA,QAEAC,KAAM,SACNC,SAAU,WACVC,KAAM","file":"../../../../widget/nls/sl/Wizard.js","sourcesContent":["define(\r\n({\r\nnext: \"Naprej\",\r\nprevious: \"Prejšnji\",\r\ndone: \"Opravljeno\"\r\n})\r\n);\r\n"]}

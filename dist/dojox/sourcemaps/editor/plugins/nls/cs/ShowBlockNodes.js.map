@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/cs/ShowBlockNodes.js"],"names":["define","showBlockNodes"],"mappings":";;;;;;;AAAAA,QAECC,eAAkB","file":"../../../../../editor/plugins/nls/cs/ShowBlockNodes.js","sourcesContent":["define(\r\n({\r\n\t\"showBlockNodes\": \"Zobrazit prvky bloku kódu HTML\"\r\n})\r\n);\r\n"]}

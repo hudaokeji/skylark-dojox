@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/uk/TextColor.js"],"names":["define","setButtonText","cancelButtonText"],"mappings":";;;;;;;AAAAA,QAECC,cAAiB,aACjBC,iBAAoB","file":"../../../../../editor/plugins/nls/uk/TextColor.js","sourcesContent":["define(\r\n({\r\n\t\"setButtonText\": \"Встановити\",\r\n\t\"cancelButtonText\": \"Скасувати\"\r\n})\r\n);\r\n"]}

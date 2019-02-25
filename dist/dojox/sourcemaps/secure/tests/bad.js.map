@@ -1,0 +1,1 @@
+{"version":3,"sources":["secure/tests/bad.js"],"names":["element","innerHTML","alert","this"],"mappings":";;;;;;;AAAAA,QAAQC,UAAY,yDACpBC,MAAMC","file":"../../../secure/tests/bad.js","sourcesContent":["element.innerHTML = \"Only doing <b>things</b> I am <i>not</i> allowed to do\";\r\nalert(this);"]}

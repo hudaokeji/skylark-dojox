@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["doh/main","require"],function(e,l){e.registerUrl("dojox.mobile.tests.doh.ScrollablePane",l.toUrl("./ScrollablePaneTests.html"),999999)});
+//# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/scrollablepane/module.js.map

@@ -1,0 +1,9 @@
+/**
+ * dojox - A version of dojox.js framework that ported to running on skylarkjs.
+ * @author Hudaokeji, Inc.
+ * @version v0.9.0
+ * @link https://github.com/skylark-integration/dojox/
+ * @license MIT
+ */
+define(["dojo/_base/lang","dojo/_base/array","dojo/_base/declare","./_base","./vector"],function(t,r,e,n,i){n.scheduler={zOrder:function(t,r){return r=r||n.scheduler.order,t.sort(function(t,e){return r(e)-r(t)}),t},bsp:function(t,e){e=e||n.scheduler.outline;var i=new n.scheduler.BinarySearchTree(t[0],e);return r.forEach(t.slice(1),function(t){i.add(t,e)}),i.iterate(e)},order:function(t){return t.getZOrder()},outline:function(t){return t.getOutline()}};var o=e("dojox.gfx3d.scheduler.BinarySearchTree",null,{constructor:function(t,r){this.plus=null,this.minus=null,this.object=t;var e=r(t);this.orient=e[0],this.normal=i.normalize(e)},add:function(t,e){var o=e(t),s=i,u=this.normal,c=this.orient,a=n.scheduler.BinarySearchTree;if(r.every(o,function(t){return Math.floor(.5+s.dotProduct(u,s.substract(t,c)))<=0}))this.minus?this.minus.add(t,e):this.minus=new a(t,e);else{if(!r.every(o,function(t){return Math.floor(.5+s.dotProduct(u,s.substract(t,c)))>=0}))throw"The case: polygon cross siblings' plate is not implemented yet";this.plus?this.plus.add(t,e):this.plus=new a(t,e)}},iterate:function(t){var r=i,e=[],n=null;return(n=Math.floor(.5+r.dotProduct(this.normal,r.substract({x:0,y:0,z:-1e4},this.orient)))<=0?[this.plus,this.minus]:[this.minus,this.plus])[0]&&(e=e.concat(n[0].iterate())),e.push(this.object),n[1]&&(e=e.concat(n[1].iterate())),e}});return n.drawer={conservative:function(t,e,n){r.forEach(this.objects,function(t){t.destroy()}),r.forEach(e,function(t){t.draw(n.lighting)})},chart:function(t,e,n){r.forEach(this.todos,function(t){t.draw(n.lighting)})}},{scheduler:n.scheduler,drawer:n.drawer,BinarySearchTree:o}});
+//# sourceMappingURL=../sourcemaps/gfx3d/scheduler.js.map

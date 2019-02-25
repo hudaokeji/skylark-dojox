@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/tests/customApp/dtl.js"],"names":["define","oldRepl","items"],"mappings":";;;;;;;AAAAA,UAAW,WACV,OACCC,QAAS,UACTC,OAAQ,QAAS,SAAU","file":"../../../../app/tests/customApp/dtl.js","sourcesContent":["define([], function(){\r\n\treturn {\r\n\t\toldRepl: \"Fruit: \",\r\n\t\titems: [\"apple\", \"banana\", \"orange\"]\r\n\t}\r\n});"]}

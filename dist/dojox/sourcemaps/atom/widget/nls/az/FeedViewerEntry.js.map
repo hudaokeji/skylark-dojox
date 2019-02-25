@@ -1,0 +1,1 @@
+{"version":3,"sources":["atom/widget/nls/az/FeedViewerEntry.js"],"names":["define","deleteButton"],"mappings":";;;;;;;AAAAA,QAECC,aAAiB","file":"../../../../../atom/widget/nls/az/FeedViewerEntry.js","sourcesContent":["define(\r\n({\r\n\t\"deleteButton\" : \"[Sil]\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["dtl/tests/text/load.js"],"names":["dojo","provide"],"mappings":";;;;;;;AAAAA,KAAKC,QAAQ","file":"../../../../dtl/tests/text/load.js","sourcesContent":["dojo.provide(\"dojox.dtl.tests.text.load\");\r\n// Test for the {% load %} tag"]}

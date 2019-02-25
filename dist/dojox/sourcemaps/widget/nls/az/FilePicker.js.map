@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/az/FilePicker.js"],"names":["define","name","size","path"],"mappings":";;;;;;;AAAAA,QAECC,KAAS,KACTC,KAAS,yBACTC,KAAS","file":"../../../../widget/nls/az/FilePicker.js","sourcesContent":["define(\r\n({\r\n\t\"name\" : \"Ad\",\r\n\t\"size\" : \"Həcmi (bayt cinsindən)\",\r\n\t\"path\" : \"Yol\"\r\n})\r\n);\r\n"]}

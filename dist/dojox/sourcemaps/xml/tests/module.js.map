@@ -1,0 +1,1 @@
+{"version":3,"sources":["xml/tests/module.js"],"names":["define"],"mappings":";;;;;;;AAAAA,QAAQ","file":"../../../xml/tests/module.js","sourcesContent":["define(['./parser'], {});\r\n"]}

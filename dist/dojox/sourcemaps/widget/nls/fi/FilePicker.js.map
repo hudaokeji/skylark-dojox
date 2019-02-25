@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/fi/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,OACNC,KAAM,QACNC,KAAM","file":"../../../../widget/nls/fi/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Nimi\",\r\n\tpath: \"Polku\",\r\n\tsize: \"Koko (tavuina)\"\r\n})\r\n);\r\n"]}

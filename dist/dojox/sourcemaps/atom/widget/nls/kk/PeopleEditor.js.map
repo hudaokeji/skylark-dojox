@@ -1,0 +1,1 @@
+{"version":3,"sources":["atom/widget/nls/kk/PeopleEditor.js"],"names":["define","add","addAuthor","addContributor"],"mappings":";;;;;;;AAAAA,QAECC,IAAK,OACLC,UAAW,eACXC,eAAgB","file":"../../../../../atom/widget/nls/kk/PeopleEditor.js","sourcesContent":["define(\r\n({\r\n\tadd: \"Қосу\",\r\n\taddAuthor: \"Авторды қосу\",\r\n\taddContributor: \"Салымшыны қосу\"\r\n})\r\n);\r\n"]}

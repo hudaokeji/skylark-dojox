@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/th/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,OACNC,KAAM,MACNC,KAAM","file":"../../../../widget/nls/th/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"ชื่อ\",\r\n\tpath: \"พาธ\",\r\n\tsize: \"ขนาด (เป็นไบต์)\"\r\n})\r\n);\r\n"]}

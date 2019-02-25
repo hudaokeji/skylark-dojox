@@ -1,0 +1,1 @@
+{"version":3,"sources":["atom/widget/nls/zh/FeedViewerEntry.js"],"names":["define","deleteButton"],"mappings":";;;;;;;AAAAA,QAECC,aAAc","file":"../../../../../atom/widget/nls/zh/FeedViewerEntry.js","sourcesContent":["define(\r\n({\r\n\tdeleteButton: \"[删除]\"\r\n})\r\n);\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["form/nls/ca/Uploader.js"],"names":["define","label"],"mappings":";;;;;;;AAAAA,QAECC,MAAO","file":"../../../../form/nls/ca/Uploader.js","sourcesContent":["define(\r\n({\r\n\tlabel: \"Selecciona fitxers...\"\r\n})\r\n);\r\n"]}

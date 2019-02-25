@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/zh-tw/BidiSupport.js"],"names":["define","ltr","rtl"],"mappings":";;;;;;;AAAAA,QAECC,IAAO,WACPC,IAAO","file":"../../../../../editor/plugins/nls/zh-tw/BidiSupport.js","sourcesContent":["define({      \r\n//begin v1.x content\r\n\t\"ltr\": \"從左到右文字方向\",\r\n\t\"rtl\": \"從右到左文字方向\"\r\n//end v1.x content\r\n});\r\n\r\n"]}

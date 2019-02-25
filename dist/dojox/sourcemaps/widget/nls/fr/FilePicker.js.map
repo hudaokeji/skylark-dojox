@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/fr/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,MACNC,KAAM,SACNC,KAAM","file":"../../../../widget/nls/fr/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Nom\",\r\n\tpath: \"Chemin\",\r\n\tsize: \"Taille (en octets)\"\r\n})\r\n);\r\n"]}

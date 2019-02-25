@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/id/Wizard.js"],"names":["define","next","previous","done"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,aACNC,SAAU,aACVC,KAAM","file":"../../../../widget/nls/id/Wizard.js","sourcesContent":["define(\r\n({\r\n\tnext: \"Berikutnya\",\r\n\tprevious: \"Sebelumnya\",\r\n\tdone: \"Selesai\"\r\n})\r\n);\r\n\r\n"]}

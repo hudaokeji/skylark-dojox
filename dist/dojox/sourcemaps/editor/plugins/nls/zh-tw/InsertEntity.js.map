@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/zh-tw/InsertEntity.js"],"names":["define","insertEntity"],"mappings":";;;;;;;AAAAA,QAECC,aAAc","file":"../../../../../editor/plugins/nls/zh-tw/InsertEntity.js","sourcesContent":["define(\r\n({\r\n\tinsertEntity: \"插入符號\"\r\n})\r\n);\r\n"]}

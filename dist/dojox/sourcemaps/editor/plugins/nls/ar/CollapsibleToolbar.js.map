@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/ar/CollapsibleToolbar.js"],"names":["define","collapse","expand"],"mappings":";;;;;;;AAAAA,QAECC,SAAY,qBACZC,OAAU","file":"../../../../../editor/plugins/nls/ar/CollapsibleToolbar.js","sourcesContent":["define(\r\n({\r\n\t\"collapse\": \"طي خط أدوات المحرر\",\r\n\t\"expand\": \"توسيع خط أدوات المحرر\"\r\n})\r\n);\r\n"]}

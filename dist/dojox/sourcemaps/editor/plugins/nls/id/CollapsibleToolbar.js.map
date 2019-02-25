@@ -1,0 +1,1 @@
+{"version":3,"sources":["editor/plugins/nls/id/CollapsibleToolbar.js"],"names":["define","collapse","expand"],"mappings":";;;;;;;AAAAA,QAECC,SAAY,2BACZC,OAAU","file":"../../../../../editor/plugins/nls/id/CollapsibleToolbar.js","sourcesContent":["define(\r\n({\r\n\t\"collapse\": \"Persempit Toolbar Editor\",\r\n\t\"expand\": \"Perluas Toolbar Editor\"\r\n})\r\n);\r\n\r\n"]}

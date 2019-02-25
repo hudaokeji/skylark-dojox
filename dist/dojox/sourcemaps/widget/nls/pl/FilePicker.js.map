@@ -1,0 +1,1 @@
+{"version":3,"sources":["widget/nls/pl/FilePicker.js"],"names":["define","name","path","size"],"mappings":";;;;;;;AAAAA,QAECC,KAAM,QACNC,KAAM,UACNC,KAAM","file":"../../../../widget/nls/pl/FilePicker.js","sourcesContent":["define(\r\n({\r\n\tname: \"Nazwa\",\r\n\tpath: \"Ścieżka\",\r\n\tsize: \"Wielkość (w bajtach)\"\r\n})\r\n);\r\n"]}
