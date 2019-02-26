@@ -87,6 +87,7 @@
 })(function(define,require) {
 
 define('dojo/has',["require", "module"], function(require, module){
+
 	// module:
 	//		dojo/has
 	// summary:
@@ -253,23 +254,30 @@ define('dojo/has',["require", "module"], function(require, module){
 		return id && toAbsMid(id);
 	};
 
-	has.load = function(id, parentRequire, loaded){
-		// summary:
-		//		Conditional loading of AMD modules based on a has feature test value.
-		// id: String
-		//		Gives the resolved module id to load.
-		// parentRequire: Function
-		//		The loader require function with respect to the module that contained the plugin resource in it's
-		//		dependency list.
-		// loaded: Function
-		//	 Callback to loader that consumes result of plugin demand.
+	if (require.isBrowser===false) { // for build,will be changed with better implementation. by LWF
+		has.load = function (name, req, onLoad, config) {
+	        onLoad();
+	    };		
+	} else {
+		has.load = function(id, parentRequire, loaded){
+			// summary:
+			//		Conditional loading of AMD modules based on a has feature test value.
+			// id: String
+			//		Gives the resolved module id to load.
+			// parentRequire: Function
+			//		The loader require function with respect to the module that contained the plugin resource in it's
+			//		dependency list.
+			// loaded: Function
+			//	 Callback to loader that consumes result of plugin demand.
 
-		if(id){
-			parentRequire([id], loaded);
-		}else{
-			loaded();
-		}
-	};
+			if(id){
+				parentRequire([id], loaded);
+			}else{
+				loaded();
+			}
+		};		
+	}
+
 
 	return has;
 });
