@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(o,r,e){o.registerUrl("dojox.mobile.tests.doh.ProgressIndicator",r.toUrl("./progress-indicator.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(o,require,r){o.registerUrl("dojox.mobile.tests.doh.ProgressIndicator",require.toUrl("./progress-indicator.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/progressindicator/module.js.map

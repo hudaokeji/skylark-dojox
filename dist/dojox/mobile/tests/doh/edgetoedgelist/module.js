@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,o,d){e.registerUrl("dojox.mobile.tests.doh.EdgeToEdgeList",o.toUrl("./EdgeToEdgeListTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,o){e.registerUrl("dojox.mobile.tests.doh.EdgeToEdgeList",require.toUrl("./EdgeToEdgeListTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/edgetoedgelist/module.js.map

@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,o,t){e.registerUrl("dojox.mobile.tests.doh.Heading",o.toUrl("./Heading.html"),999999),e.registerUrl("dojox.mobile.tests.doh.Heading",o.toUrl("./Heading2.html"),999999),e.registerUrl("dojox.mobile.tests.doh.Heading",o.toUrl("./Heading_Programmatic.html"),999999),e.registerUrl("dojox.mobile.tests.doh.Heading",o.toUrl("./Heading2_Programmatic.html"),999999),e.registerUrl("dojox.mobile.tests.doh.Heading",o.toUrl("./HeadingTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,o){e.registerUrl("dojox.mobile.tests.doh.Heading",require.toUrl("./Heading.html"),999999),e.registerUrl("dojox.mobile.tests.doh.Heading",require.toUrl("./Heading2.html"),999999),e.registerUrl("dojox.mobile.tests.doh.Heading",require.toUrl("./Heading_Programmatic.html"),999999),e.registerUrl("dojox.mobile.tests.doh.Heading",require.toUrl("./Heading2_Programmatic.html"),999999),e.registerUrl("dojox.mobile.tests.doh.Heading",require.toUrl("./HeadingTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/heading/module.js.map

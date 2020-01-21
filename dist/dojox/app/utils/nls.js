@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["require","dojo/Deferred"],function(e,n){return function(r,o){var i=r.nls;if(i){var f,t=new n;try{var u=i,d=u.indexOf("./");d>=0&&(u=i.substring(d+2)),f=e.on?e.on("error",function(e){t.isResolved()||t.isRejected()||e.info[0]&&e.info[0].indexOf(u)>=0&&(t.resolve(!1),f&&f.remove())}):null,0==i.indexOf("./")&&(i="app/"+i),e(["dojo/i18n!"+i],function(e){t.resolve(e),f.remove()})}catch(e){t.reject(e),f&&f.remove()}return t}return!1}});
+define(["require","dojo/Deferred"],function(require,e){return function(n,r){var o=n.nls;if(o){var i,f=new e;try{var t=o,u=t.indexOf("./");u>=0&&(t=o.substring(u+2)),i=require.on?require.on("error",function(e){f.isResolved()||f.isRejected()||e.info[0]&&e.info[0].indexOf(t)>=0&&(f.resolve(!1),i&&i.remove())}):null,0==o.indexOf("./")&&(o="app/"+o),require(["dojo/i18n!"+o],function(e){f.resolve(e),i.remove()})}catch(e){f.reject(e),i&&i.remove()}return f}return!1}});
 //# sourceMappingURL=../../sourcemaps/app/utils/nls.js.map

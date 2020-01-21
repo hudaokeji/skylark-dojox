@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,i,n){e.registerUrl("dojox.mobile.tests.doh.ExpandingTextArea",i.toUrl("./ExpandingTextAreaTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,i){e.registerUrl("dojox.mobile.tests.doh.ExpandingTextArea",require.toUrl("./ExpandingTextAreaTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/expandingtextarea/module.js.map

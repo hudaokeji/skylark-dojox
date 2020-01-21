@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(o,e,i){o.registerUrl("dojox.mobile.tests.doh.Accordion",e.toUrl("./AccordionTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(o,require,e){o.registerUrl("dojox.mobile.tests.doh.Accordion",require.toUrl("./AccordionTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/accordion/module.js.map

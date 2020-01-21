@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,o,d){e.registerUrl("dojox.mobile.tests.doh.Badge",o.toUrl("./BadgeTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,o){e.registerUrl("dojox.mobile.tests.doh.Badge",require.toUrl("./BadgeTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/badge/module.js.map

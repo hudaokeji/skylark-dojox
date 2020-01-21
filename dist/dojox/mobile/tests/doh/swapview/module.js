@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,o,t){t("ie")<10||(e.registerUrl("dojox.mobile.tests.doh.SwapView",o.toUrl("./SwapViewTests1.html"),999999),e.registerUrl("dojox.mobile.tests.doh.SwapView",o.toUrl("./SwapViewTests2.html"),999999),e.registerUrl("dojox.mobile.tests.doh.SwapView",o.toUrl("./SwapViewTests3.html"),999999))});
+define(["doh/main","require","dojo/sniff"],function(e,require,o){o("ie")<10||(e.registerUrl("dojox.mobile.tests.doh.SwapView",require.toUrl("./SwapViewTests1.html"),999999),e.registerUrl("dojox.mobile.tests.doh.SwapView",require.toUrl("./SwapViewTests2.html"),999999),e.registerUrl("dojox.mobile.tests.doh.SwapView",require.toUrl("./SwapViewTests3.html"),999999))});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/swapview/module.js.map

@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require"],function(e,r){e.register("form.RangeSlider",r.toUrl("./test_RangeSlider.html?mode=test"),999999)});
+define(["doh/main","require"],function(e,require){e.register("form.RangeSlider",require.toUrl("./test_RangeSlider.html?mode=test"),999999)});
 //# sourceMappingURL=../../sourcemaps/form/tests/module.js.map

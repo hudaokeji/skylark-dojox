@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,i,o){e.registerUrl("dojox.mobile.tests.doh.SpinWheelDatePicker",i.toUrl("./SpinWheelDatePicker.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,i){e.registerUrl("dojox.mobile.tests.doh.SpinWheelDatePicker",require.toUrl("./SpinWheelDatePicker.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/spinwheeldatepicker/module.js.map

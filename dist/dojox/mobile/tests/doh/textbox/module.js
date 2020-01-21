@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,o,t){e.registerUrl("dojox.mobile.tests.doh.TextBox",o.toUrl("./TextBoxTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,o){e.registerUrl("dojox.mobile.tests.doh.TextBox",require.toUrl("./TextBoxTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/textbox/module.js.map

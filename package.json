@@ -23,8 +23,7 @@
   "dependencies": {
     "dijit": "git+https://github.com/skylark-integration/dijit.git#master",
     "dojo": "git+https://github.com/skylark-integration/dojo.git#master",
-    "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master",
-    "skylark-utils-dom": "git+https://github.com/skylarkutils/skylark-utils-dom.git#master"
+    "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master"
   },
   "engines": {
     "node": ">=0.10.1"

@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,r,i){e.registerUrl("dojox.mobile.tests.doh.ValuePickerDatePicker",r.toUrl("./DatePickerIso.html"),999999),e.registerUrl("dojox.mobile.tests.doh.ValuePickerDatePicker",r.toUrl("./ValuePickerDatePicker.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,r){e.registerUrl("dojox.mobile.tests.doh.ValuePickerDatePicker",require.toUrl("./DatePickerIso.html"),999999),e.registerUrl("dojox.mobile.tests.doh.ValuePickerDatePicker",require.toUrl("./ValuePickerDatePicker.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/valuepickerdatepicker/module.js.map

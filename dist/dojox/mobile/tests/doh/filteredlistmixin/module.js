@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,i,t){e.registerUrl("dojox.mobile.tests.doh.filteredlistmixin",i.toUrl("./FilteredListTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,i){e.registerUrl("dojox.mobile.tests.doh.filteredlistmixin",require.toUrl("./FilteredListTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/filteredlistmixin/module.js.map

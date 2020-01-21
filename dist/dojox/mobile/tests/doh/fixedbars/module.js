@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,o,r){e.registerUrl("dojox.mobile.tests.doh.FixedBars",o.toUrl("./CustomFixedBarsTests.html"),999999),e.registerUrl("dojox.mobile.tests.doh.FixedBars",o.toUrl("./DeclaredFixedFooterTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,o){e.registerUrl("dojox.mobile.tests.doh.FixedBars",require.toUrl("./CustomFixedBarsTests.html"),999999),e.registerUrl("dojox.mobile.tests.doh.FixedBars",require.toUrl("./DeclaredFixedFooterTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/fixedbars/module.js.map

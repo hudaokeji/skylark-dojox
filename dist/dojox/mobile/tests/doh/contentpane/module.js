@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,n,o){o("ie")<10||e.registerUrl("dojox.mobile.tests.doh.ContentPane",n.toUrl("./ContentPaneTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,n){n("ie")<10||e.registerUrl("dojox.mobile.tests.doh.ContentPane",require.toUrl("./ContentPaneTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/contentpane/module.js.map

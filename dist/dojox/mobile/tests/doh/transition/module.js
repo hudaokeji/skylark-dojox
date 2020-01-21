@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(i,o,t){i.registerUrl("dojox.mobile.tests.doh.transition",o.toUrl("./MblCSS3TransitionTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(i,require,o){i.registerUrl("dojox.mobile.tests.doh.transition",require.toUrl("./MblCSS3TransitionTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/transition/module.js.map

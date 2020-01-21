@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,i,r){e.registerUrl("dojox.mobile.tests.doh.ValuePickerTimePickerTests",i.toUrl("./ValuePickerTimePickerTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,i){e.registerUrl("dojox.mobile.tests.doh.ValuePickerTimePickerTests",require.toUrl("./ValuePickerTimePickerTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/valuepickertimepicker/module.js.map

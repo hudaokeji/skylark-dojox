@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require"],function(e,l){e.registerUrl("dojox.mobile.tests.doh.ScrollablePane",l.toUrl("./ScrollablePaneTests.html"),999999)});
+define(["doh/main","require"],function(e,require){e.registerUrl("dojox.mobile.tests.doh.ScrollablePane",require.toUrl("./ScrollablePaneTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/scrollablepane/module.js.map

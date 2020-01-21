@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(t,o,e){t.registerUrl("dojox.mobile.tests.doh.RoundRectStoreList",o.toUrl("./RoundRectStoreList.html"),999999),t.registerUrl("dojox.mobile.tests.doh.RoundRectStoreList",o.toUrl("./RoundRectStoreList_Programmatic.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(t,require,o){t.registerUrl("dojox.mobile.tests.doh.RoundRectStoreList",require.toUrl("./RoundRectStoreList.html"),999999),t.registerUrl("dojox.mobile.tests.doh.RoundRectStoreList",require.toUrl("./RoundRectStoreList_Programmatic.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/roundrectstorelist/module.js.map

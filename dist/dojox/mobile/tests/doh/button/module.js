@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(t,o,e){t.registerUrl("dojox.mobile.tests.doh.Button",o.toUrl("./Button.html"),999999),t.registerUrl("dojox.mobile.tests.doh.Button",o.toUrl("./Button_Programmatic.html"),999999),t.registerUrl("dojox.mobile.tests.doh.Button",o.toUrl("./ButtonTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(t,require,o){t.registerUrl("dojox.mobile.tests.doh.Button",require.toUrl("./Button.html"),999999),t.registerUrl("dojox.mobile.tests.doh.Button",require.toUrl("./Button_Programmatic.html"),999999),t.registerUrl("dojox.mobile.tests.doh.Button",require.toUrl("./ButtonTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/button/module.js.map

@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,o,i){e.registerUrl("dojox.mobile.tests.doh.CheckBox",o.toUrl("./CheckBoxTests.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,o){e.registerUrl("dojox.mobile.tests.doh.CheckBox",require.toUrl("./CheckBoxTests.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/checkbox/module.js.map

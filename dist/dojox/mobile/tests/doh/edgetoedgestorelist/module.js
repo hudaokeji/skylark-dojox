@@ -5,5 +5,5 @@
  * @link https://github.com/skylark-integration/dojox/
  * @license MIT
  */
-define(["doh/main","require","dojo/sniff"],function(e,o,t){e.registerUrl("dojox.mobile.tests.doh.EdgeToEdgeStoreList",o.toUrl("./EdgeToEdgeStoreList.html"),999999),e.registerUrl("dojox.mobile.tests.doh.EdgeToEdgeStoreList",o.toUrl("./EdgeToEdgeStoreList_Programmatic.html"),999999),e.registerUrl("dojox.mobile.tests.doh.EdgeToEdgeStoreList",o.toUrl("./EdgeToEdgeStoreList-itemMap-updates.html"),999999),e.registerUrl("dojox.mobile.tests.doh.EdgeToEdgeStoreList",o.toUrl("./EdgeToEdgeStoreList-sorted.html"),999999)});
+define(["doh/main","require","dojo/sniff"],function(e,require,o){e.registerUrl("dojox.mobile.tests.doh.EdgeToEdgeStoreList",require.toUrl("./EdgeToEdgeStoreList.html"),999999),e.registerUrl("dojox.mobile.tests.doh.EdgeToEdgeStoreList",require.toUrl("./EdgeToEdgeStoreList_Programmatic.html"),999999),e.registerUrl("dojox.mobile.tests.doh.EdgeToEdgeStoreList",require.toUrl("./EdgeToEdgeStoreList-itemMap-updates.html"),999999),e.registerUrl("dojox.mobile.tests.doh.EdgeToEdgeStoreList",require.toUrl("./EdgeToEdgeStoreList-sorted.html"),999999)});
 //# sourceMappingURL=../../../../sourcemaps/mobile/tests/doh/edgetoedgestorelist/module.js.map
