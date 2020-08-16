@@ -10,7 +10,7 @@
   "homepage": "https://github.com/skylark-integration/dojox/",
   "author": "Hudaokeji, Inc.",
   "scripts": {
-    "build": "sbundle build ."
+    "build": "slib build ."
   },
   "repository": {
     "type": "git",
@@ -24,13 +24,13 @@
     "dist/",
     "src/",
     "skins/",
-    "thems/",
-  ],  
+    "themes/"
+  ],
   "license": "MIT",
   "dependencies": {
     "dijit": "git+https://github.com/skylark-integration/dijit.git#master",
     "dojo": "git+https://github.com/skylark-integration/dojo.git#master",
-    "skylark-langx": "git+https://github.com/skylarklangx/skylark-langx.git#master"
+    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master"
   },
   "engines": {
     "node": ">=0.10.1"
