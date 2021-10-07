@@ -28,9 +28,9 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "dijit": "git+https://github.com/skylark-integration/dijit.git#master",
-    "dojo": "git+https://github.com/skylark-integration/dojo.git#master",
-    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master"
+    "dijit": "git+https://github.com/skylark-integration/dijit.git",
+    "dojo": "git+https://github.com/skylark-integration/dojo.git",
+    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git"
   },
   "engines": {
     "node": ">=0.10.1"
